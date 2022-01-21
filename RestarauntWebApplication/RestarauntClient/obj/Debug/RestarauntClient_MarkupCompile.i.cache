@@ -1,0 +1,20 @@
+﻿RestarauntClient
+
+
+winexe
+C#
+.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\
+RestarauntClient
+none
+false
+DEBUG;TRACE
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\App.xaml
+201138646481
+
+68-846133747
+155-1106348479
+Styles\MainStyle.xaml;View\Pages\AddDishInMenuPage.xaml;View\Pages\AddIngridientsInStoragePage.xaml;View\Pages\AddRestarauntIngridientsPage.xaml;View\Pages\AddRestarauntWorkersPage.xaml;View\Pages\CheckIngridientsStoragePage.xaml;View\Pages\CookCheckNewDishesForCookingPage.xaml;View\Pages\DishCookingPage.xaml;View\Pages\DishesInMenuPage.xaml;View\Pages\OrderDetailsPage.xaml;View\Pages\RestarauntIngridientsPage.xaml;View\Pages\RestarauntWorkersPage.xaml;View\Pages\UpdateDishInMenuPage.xaml;View\Pages\WaiterCheckOrderPage.xaml;View\Pages\WaiterCreateNewOrderPage.xaml;View\Pages\WaiterCreateOrderPage.xaml;View\Windows\AdministratorWindow.xaml;View\Windows\AuthorizationWindow.xaml;View\Windows\CookWindow.xaml;View\Windows\WaiterWindow.xaml;
+
+True
+

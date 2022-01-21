@@ -1,0 +1,695 @@
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\RestarauntClient.exe
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\RestarauntClient.pdb
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\App.g.cs
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.exe
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\App.baml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\RestSharp.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\RestSharp.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Text.Json.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.ValueTuple.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Buffers.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Memory.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Text.Json.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.ValueTuple.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+C:\Users\User\source\repos\RestarauntClient\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+C:\Users\user452.CHENK\Desktop\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.baml
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.g.cs
+C:\Users\User\source\repos\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\user452.CHENK\Desktop\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.ResolveComReference.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.ResolveComReference.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.ResolveComReference.cache
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.baml
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.baml
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.g.cs
+F:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe.config
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.exe
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestarauntClient.pdb
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\CommonServiceLocator.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Windows.Interactivity.dll
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Client.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Connections.Common.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Client.Core.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Common.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.AspNetCore.SignalR.Protocols.Json.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\Newtonsoft.Json.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\RestSharp.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Buffers.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.IO.Pipelines.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Memory.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Encodings.Web.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Text.Json.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Channels.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\bin\Debug\System.ValueTuple.xml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.AssemblyReference.cache
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.ResolveComReference.cache
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\Styles\MainStyle.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.g.cs
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.cache
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient_MarkupCompile.lref
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\App.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddDishInMenuPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntIngridientsPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddRestarauntWorkersPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CheckIngridientsStoragePage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\CookCheckNewDishesForCookingPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishCookingPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\DishesInMenuPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\OrderDetailsPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntIngridientsPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\RestarauntWorkersPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\UpdateDishInMenuPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCheckOrderPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateNewOrderPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\WaiterCreateOrderPage.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AdministratorWindow.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\AuthorizationWindow.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\CookWindow.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\WaiterWindow.baml
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.g.resources
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.Properties.Resources.resources
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.GenerateResource.cache
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CoreCompileInputs.cache
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
+D:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.g.cs
+E:\Курсовой проект\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\AddIngridientsInStoragePage.baml

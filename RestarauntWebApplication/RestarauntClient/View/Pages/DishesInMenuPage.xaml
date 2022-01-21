@@ -1,0 +1,95 @@
+﻿<Page x:Class="RestarauntClient.View.Pages.DishesInMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RestarauntClient.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DishesInMenuPage"
+      Background="{StaticResource LightGreen}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Text="Меню ресторана"
+            Style="{StaticResource TextBlockHeader1}"
+            Margin="5 5 5 0"/>
+        <WrapPanel
+            Grid.Row="1"
+            Margin="5 5 5 3">
+            <Button
+                Command="{Binding AddNewDish}"
+                Style="{StaticResource DefaultButton}"
+                Content="Добавить"
+                Width="100"/>
+            <Button
+                Command="{Binding UpdateDish}"
+                Style="{StaticResource DefaultButton}"
+                Content="Изменить"
+                Width="100"
+                Margin="5 0 0 0"/>
+            <Button
+                Command="{Binding DeleteDish}"
+                Width="100"
+                Content="Удалить"
+                Style="{StaticResource DefaultButton}"
+                Margin="5 0 0 0"/>
+        </WrapPanel>
+        <ListView
+            SelectedItem="{Binding SelectedDishInMenu}"
+            ItemsSource="{Binding DishesInMenuList}"
+            BorderThickness="0"
+            Grid.Row="2"
+            HorizontalContentAlignment="Stretch"
+            VerticalContentAlignment="Stretch"
+            Background="{StaticResource LightGreen}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border
+                        CornerRadius="5"
+                        BorderBrush="{StaticResource Brown}"
+                        BorderThickness="1.5"
+                        Background="{StaticResource Green}"
+                        Margin="2">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Text="{Binding Path=DishName}"
+                                Grid.Column="0"
+                                Style="{StaticResource TextBlockDefault}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"/>
+                            <TextBlock
+                                Text="{Binding Path=DishCost}"
+                                Grid.Column="1"
+                                Style="{StaticResource TextBlockDefault}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"/>
+                            <TextBlock
+                                Text="{Binding Path=DishType.DishTypeName}"
+                                Grid.Column="2"
+                                Style="{StaticResource TextBlockDefault}"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"/>
+                            
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

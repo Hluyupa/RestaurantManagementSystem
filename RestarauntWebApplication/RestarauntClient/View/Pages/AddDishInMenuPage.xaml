@@ -1,0 +1,168 @@
+﻿<Page x:Class="RestarauntClient.View.Pages.AddDishInMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RestarauntClient.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddDishInMenuPage"
+      Background="{StaticResource LightGreen}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Style="{StaticResource TextBlockHeader1}"
+            Text="Добавление нового блюда в меню"
+            Margin="5 5 5 0"/>
+        <Grid
+            Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid
+                Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel
+                    Margin="5"
+                    Grid.Row="0">
+                    <TextBlock
+                        Margin="0 5 0 0"
+                        Text="Навзвание блюда"
+                        Style="{StaticResource TextBlockHeader2}"/>
+                    <TextBox
+                        Text="{Binding NewDishName}"
+                        Margin="0 5 0 0"
+                        HorizontalContentAlignment="Stretch"/>
+                    <TextBlock
+                        Margin="0 5 0 0"
+                        Text="Тип блюда"
+                        Style="{StaticResource TextBlockHeader2}"/>
+                    <ComboBox
+                        ItemsSource="{Binding TypesOfDishes}"
+                        SelectedItem="{Binding NewDishType}"
+                        Margin="0 5 0 0"
+                        Text="Тип блюда"
+                        Height="25"
+                        DisplayMemberPath="DishTypeName"/>
+                    <TextBlock
+                        Margin="0 5 0 0"
+                        Text="Стоимость"
+                        Style="{StaticResource TextBlockHeader2}"/>
+                    <TextBox
+                        Text="{Binding NewDishCost}"
+                        Margin="0 5 0 0"
+                        HorizontalContentAlignment="Stretch"/>
+                    <TextBlock
+                        Margin="0 5 0 0"
+                        Text="Сезон блюда"
+                        Style="{StaticResource TextBlockHeader2}"/>
+                    <TextBox
+                        Text="{Binding NewDishSeason}"
+                        Margin="0 5 0 0"
+                        HorizontalContentAlignment="Stretch"/>
+                </StackPanel>
+
+                <Button
+                    Command="{Binding CreateDishCommand}"
+                    Grid.Row="1"
+                    Style="{StaticResource DefaultButton}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Margin="5 0 5 5"
+                    Content="Создать"/>
+
+            </Grid>
+            
+            <Grid
+                Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock 
+                    Margin="5 3 5 0"
+                    Text="Необходимые ингредиенты"
+                    Grid.Row="0"
+                    Style="{StaticResource TextBlockHeader2}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"/>
+                <Button
+                    Command="{Binding AddIngridientForDishes}"
+                    Content="+"
+                    Style="{StaticResource DefaultButton}"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="5 3 5 0"/>
+                <ListView
+                    BorderThickness="0"
+                    ItemsSource="{Binding ChoiceIngridientsDishes}"
+                    Grid.Row="1"
+                    Background="{StaticResource LightGreen}"
+                    HorizontalContentAlignment="Stretch"
+                    VerticalContentAlignment="Stretch">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border
+                                Margin="2"
+                                Background="{StaticResource Green}"
+                                CornerRadius="5"
+                                BorderThickness="1.5"
+                                BorderBrush="{StaticResource Brown}">
+                                <Grid ShowGridLines="True">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox
+                                        Text="{Binding Path=CountIngridient}"
+                                        Grid.Column="1"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        Width="50"/>
+                                    <ComboBox
+                                        SelectedItem="{Binding Path=IngridientSelected}"
+                                        ItemsSource="{Binding Path=ChoiceIngridient}"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Stretch"
+                                        Margin="5"
+                                        Height="25"
+                                        DisplayMemberPath="IngridientName"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+        
+        <!--<ListView
+            HorizontalContentAlignment="Stretch"
+            VerticalContentAlignment="Stretch"
+            Grid.Row="1"
+            Background="{StaticResource LightGreen}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+    </Grid>
+</Page>

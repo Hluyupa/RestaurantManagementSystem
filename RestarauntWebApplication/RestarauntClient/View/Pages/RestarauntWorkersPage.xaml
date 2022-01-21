@@ -1,0 +1,87 @@
+﻿<Page x:Class="RestarauntClient.View.Pages.RestarauntWorkersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RestarauntClient.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RestarauntWorkersPage"
+      Background="{StaticResource LightGreen}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Margin="5 5 5 0"
+            Grid.Row="0"
+            Style="{StaticResource TextBlockHeader1}"
+            Text="Работники ресторана"/>
+        <Button
+            Command="{Binding AddWorkerCommand}"
+            Margin="5 5 5 0"
+            Grid.Row="1"
+            Style="{StaticResource DefaultButton}"
+            HorizontalAlignment="Left"
+            Content="Добавить сотрудника"
+            Width="180"/>
+        <ListView
+            ItemsSource="{Binding WorkersList}"
+            BorderThickness="0"
+            HorizontalContentAlignment="Stretch"
+            VerticalContentAlignment="Stretch"
+            Grid.Row="2"
+            Background="{StaticResource LightGreen}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border
+                        Margin="2"
+                        Background="{StaticResource Green}"
+                        CornerRadius="5"
+                        BorderThickness="1.5"
+                        BorderBrush="{StaticResource Brown}">
+                        <Grid
+                            ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock
+                                Text="{Binding WorkerFullName}"
+                                Style="{StaticResource TextBlockDefault}"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Grid.Column="0"/>
+                            <TextBlock
+                                Text="{Binding WorkerLogin}"
+                                Style="{StaticResource TextBlockDefault}"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Grid.Column="1"/>
+                            <TextBlock
+                                Text="{Binding WorkerPassword}"
+                                Style="{StaticResource TextBlockDefault}"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Grid.Column="2"/>
+                            <TextBlock
+                                Text="{Binding WorkerPosition}"
+                                Style="{StaticResource TextBlockDefault}"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Grid.Column="3"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

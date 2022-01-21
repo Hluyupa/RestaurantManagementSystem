@@ -1,0 +1,209 @@
+﻿<Page x:Class="RestarauntClient.View.Pages.CheckIngridientsStoragePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RestarauntClient.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CheckIngridientsStoragePage"
+      Background="{StaticResource LightGreen}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Style="{StaticResource TextBlockHeader1}"
+            Text="Склад с ингредиентами"
+            Margin="5 5 5 0"/>
+
+        <Grid
+            Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid
+                Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock
+                    Grid.Row="0"
+                    Margin="5 5 5 0"
+                    Style="{StaticResource TextBlockHeader2}"
+                    Text="Сейчас на складе"/>
+                <Grid
+                    Grid.Row="1"
+                    Margin="5 5 5 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        Grid.Column="0"
+                        Command="{Binding AddIngridientsInDeliveryOrder}"
+                        Style="{StaticResource DefaultButton}"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Content="Добавить в заказ"
+                        Width="150"
+                        Margin="0 0 5 0"/>
+                    <TextBox
+                        Text="{Binding CountIngridients}"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Stretch"
+                        Grid.Column="1"/>
+                </Grid>
+                <ListView
+                    SelectedItem="{Binding SelectedIngridientStorage}"
+                    Grid.Row="2"
+                    ItemsSource="{Binding IngridientsStorage}"
+                    Margin="5 3 5 0"
+                    BorderThickness="0"
+                    VerticalContentAlignment="Stretch"
+                    HorizontalContentAlignment="Stretch"
+                    Background="{StaticResource LightGreen}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border
+                                Margin="2"
+                                Background="{StaticResource Green}"
+                                BorderThickness="1.5"
+                                BorderBrush="{StaticResource Brown}"
+                                CornerRadius="5">
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock
+                                        Text="{Binding Path=Ingridient.IngridientName}"
+                                        Grid.Column="0"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=Ingridient.IngridientUnits}"
+                                        Grid.Column="1"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=Ingridient.IngridientQuantity}"
+                                        Grid.Column="2"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=Ingridient.IngridientMeasure}"
+                                        Grid.Column="3"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=StatusOfCount}"
+                                        Grid.Column="4"
+                                        Style="{StaticResource TextBlockStatusOfCount}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+
+            <Grid
+                Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock
+                    Grid.Row="0"
+                    Margin="5 5 5 0"
+                    Style="{StaticResource TextBlockHeader2}"
+                    Text="Список продуктов для заказа"/>
+                <Button
+                    Command="{Binding FormationINgridientFile}"
+                    Grid.Row="1"
+                    Style="{StaticResource DefaultButton}"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Content="Сформировать заказ"
+                    Margin="5 5 5 0"
+                    Width="170"/>
+                <ListView
+                    ItemsSource="{Binding IngridientsInDeliveryOrderList}"
+                    Grid.Row="2"
+                    Margin="5 3 5 0"
+                    BorderThickness="0"
+                    VerticalContentAlignment="Stretch"
+                    HorizontalContentAlignment="Stretch"
+                    Background="{StaticResource LightGreen}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border
+                                Margin="2"
+                                Background="{StaticResource Green}"
+                                BorderThickness="1.5"
+                                BorderBrush="{StaticResource Brown}"
+                                CornerRadius="5">
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock
+                                        Text="{Binding Path=IngridientName}"
+                                        Grid.Column="0"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=IngridientUnits}"
+                                        Grid.Column="1"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=IngridientQuantity}"
+                                        Grid.Column="2"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                    <TextBlock
+                                        Text="{Binding Path=IngridientMeasure}"
+                                        Grid.Column="3"
+                                        Style="{StaticResource TextBlockDefault}"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,264 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="LightGreen" Color="#D2F079"/>  <!--Фон окна-->
+    <SolidColorBrush x:Key="Green" Color="#C8D35B"/>       <!--Фон элементов-->
+    <SolidColorBrush x:Key="LightBrown" Color="#E0B65A"/>  <!--Фон при взаимодействии-->
+    <SolidColorBrush x:Key="Brown" Color="#A2663E"/>       <!--Цвет текста-->
+    <SolidColorBrush x:Key="LightYellow" Color="#F0F05A"/> <!--Фон при взаимодействии-->
+
+    <!--Стиль для Button-->
+    <Style TargetType="Button" x:Key="DefaultButton">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border MinWidth="{TemplateBinding Width}" MinHeight="{TemplateBinding Height}" BorderThickness="1.5" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Border.Background>
+                            <SolidColorBrush x:Name="Background" Color="#C8D35B"/>
+                        </Border.Background>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+
+                                <VisualState Name="MouseOver">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#F0F05A"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState Name="Normal">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#C8D35B"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState Name="Pressed">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#E0B65A"/>
+                                    </Storyboard>
+                                </VisualState>
+
+
+                                <VisualStateGroup.Transitions>
+
+                                    <!--Из Normal в MouseOver-->
+                                    <VisualTransition From="Normal" To="MouseOver" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#F0F05A"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из MouseOver в Normal-->
+                                    <VisualTransition From="MouseOver" To="Normal" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#C8D35B"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из MouseOver в Pressed-->
+                                    <VisualTransition From="MouseOver" To="Pressed" GeneratedDuration="0:0:0.1">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.1" Value="#E0B65A"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из Pressed в MouseOver-->
+                                    <VisualTransition From="Pressed" To="MouseOver" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#F0F05A"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из Pressed в Normal-->
+                                    <VisualTransition From="Pressed" To="Normal" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#C8D35B"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                </VisualStateGroup.Transitions>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="BorderBrush" Value="{StaticResource Brown}"/>
+        <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+        <Setter Property="Background" Value="{StaticResource Green}"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Tw Cen MT"/>
+        <Setter Property="MinWidth" Value="80"/>
+        <Setter Property="MinHeight" Value="25"/>
+
+    </Style>
+
+    
+    
+    <!--Стиль для ListViewMeuItem-->
+    <Style TargetType="ListViewItem" x:Key="MenuItemListView">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListViewItem">
+                    <Border MinWidth="{TemplateBinding Width}" MinHeight="{TemplateBinding Height}" BorderThickness="0">
+                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <Border.Background>
+                            <SolidColorBrush x:Name="Background" Color="#C8D35B"/>
+                        </Border.Background>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="MouseOver">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#F0F05A"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState Name="Selected">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#D2F079"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState Name="Normal">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" To="#C8D35B"/>
+                                    </Storyboard>
+                                </VisualState>
+                                
+                                <VisualStateGroup.Transitions>
+                                    <!--Из Normal в MouseOver-->
+                                    <VisualTransition From="Normal" To="MouseOver" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#F0F05A"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из MouseOver в Normal-->
+                                    <VisualTransition From="MouseOver" To="Normal" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#C8D35B"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из MouseOver в Selected-->
+                                    <VisualTransition From="MouseOver" To="Selected" GeneratedDuration="0:0:0.1">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.1" Value="#D2F079"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                    <!--Из Selected в Normal-->
+                                    <VisualTransition From="Selected" To="Normal" GeneratedDuration="0:0:0.2">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="Color" FillBehavior="HoldEnd">
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+                                                    <LinearColorKeyFrame KeyTime="0:0:0.2" Value="#C8D35B"/>
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualTransition>
+
+                                </VisualStateGroup.Transitions>
+                                
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+       
+        <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+        <Setter Property="Background" Value="{StaticResource Green}"/>
+        <Setter Property="FontSize" Value="16"/> 
+        <Setter Property="FontFamily" Value="Tw Cen MT"/>
+        <Setter Property="MinWidth" Value="80"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+
+    <!--Стиль для TextBox-->
+    <Style TargetType="TextBox">
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="Background" Value="{StaticResource Green}"/>
+        <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+        <Setter Property="FontFamily" Value="Tw Cen MT"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <!--Стиль для TextBlock-->
+    <Style TargetType="TextBlock" x:Key="TextBlockDefault">
+        <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+        <Setter Property="FontFamily" Value="Tw Cen MT"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+    
+    <Style TargetType="TextBlock" x:Key="TextBlockHeader1" BasedOn="{StaticResource TextBlockDefault}">
+        <Setter Property="FontSize" Value="22"/>
+    </Style>
+    
+    <Style TargetType="TextBlock" x:Key="TextBlockHeader2" BasedOn="{StaticResource TextBlockDefault}">
+        <Setter Property="FontSize" Value="18"/>
+        
+    </Style>
+
+    <Style TargetType="TextBlock" x:Key="TextBlockStatusOfCount" BasedOn="{StaticResource TextBlockDefault}">
+        <Style.Triggers>
+            <Trigger Property="Text" Value="Отсутствует">
+                <Setter Property="Foreground" Value="Red"/>
+            </Trigger>
+            <Trigger Property="Text" Value="Кончается">
+                <Setter Property="Foreground" Value="Yellow"/>
+            </Trigger>
+            <Trigger Property="Text" Value="В избытке">
+                <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!--Стиль для ComboBoxItem-->
+    <Style TargetType="ComboBoxItem">
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="{StaticResource Green}"/>
+        <Setter Property="Foreground" Value="{StaticResource Brown}"/>
+        <Setter Property="FontFamily" Value="Tw Cen MT"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+    <!--Стиль для Window-->
+    <Style TargetType="Window" x:Key="WindowStyle">
+        <Setter Property="Background" Value="{StaticResource LightGreen}"/>
+    </Style>
+    
+</ResourceDictionary>
