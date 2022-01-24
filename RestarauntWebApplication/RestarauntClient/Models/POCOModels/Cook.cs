@@ -19,5 +19,6 @@ namespace RestarauntClient.Models.POCOModels
         public Worker Worker { get; set; }
         [JsonPropertyName("dishCookOrders")]
         public ICollection<DishCookOrder> DishCookOrders { get; set; }
+
     }
 }

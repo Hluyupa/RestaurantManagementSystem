@@ -24,7 +24,7 @@ namespace RestarauntClient.ViewModels
         {
             AuthorizationWindow = _authorizationWindow;
             LoginModel = new LoginModel();
-            Client.Instance().httpClient = new RestClient("http://172.20.1.95:8240");
+            Client.Instance().httpClient = new RestClient("http://172.20.1.119:8241");
             AuthCommand = new RelayCommand(authCommand);
         }
 
@@ -58,7 +58,7 @@ namespace RestarauntClient.ViewModels
                         break;
                 }
                 Client.Instance().hubConnection = new HubConnectionBuilder()
-                   .WithUrl("http://172.20.1.95:8240/notification")
+                   .WithUrl("http://172.20.1.119:8241/notification")
                    .Build();
                 Client.Instance().hubConnection.StartAsync();
             }

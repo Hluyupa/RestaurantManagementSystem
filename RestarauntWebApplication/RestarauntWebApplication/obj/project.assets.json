@@ -7434,11 +7434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Курсовой проект\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\user452.CHENK\\Desktop\\Новая папка (2)\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
       "projectName": "RestarauntWebApplication",
-      "projectPath": "E:\\Курсовой проект\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+      "projectPath": "C:\\Users\\user452.CHENK\\Desktop\\Новая папка (2)\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
       "packagesPath": "C:\\Users\\user452.CHENK\\.nuget\\packages\\",
-      "outputPath": "E:\\Курсовой проект\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\user452.CHENK\\Desktop\\Новая папка (2)\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

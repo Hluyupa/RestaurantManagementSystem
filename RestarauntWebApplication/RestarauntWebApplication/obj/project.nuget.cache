@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrGgeChB2vp0aQnRNXR3vb3K8CjRp6WvgrvJtZ0GWv8eYp1EBn6psy+PdF6vcjAAMgi2P7fzpZt5G7s+SbWDGA==",
+  "dgSpecHash": "h6Vecola+SiEjpS2sKf9hdSPrxIEDL/HqE6N1X+tkn8+lvt4NkhP+B+6NqTZIqK6Wy2zvE4OD51aEf5m8U9APA==",
   "success": true,
-  "projectFilePath": "E:\\Курсовой проект\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+  "projectFilePath": "C:\\Users\\user452.CHENK\\Desktop\\Новая папка (2)\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user452.CHENK\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user452.CHENK\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

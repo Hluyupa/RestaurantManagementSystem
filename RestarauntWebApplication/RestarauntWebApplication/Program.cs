@@ -22,7 +22,7 @@ namespace RestarauntWebApplication
                 {
                     webBuilder.ConfigureKestrel(e =>
                     {
-                        e.Listen(new System.Net.IPAddress(new byte[] { 172, 20, 1, 95 }), port:8241);
+                        e.Listen(new System.Net.IPAddress(new byte[] { 172, 20, 1, 119 }), port:8241);
                     });
                     webBuilder.UseStartup<Startup>();
                 });
