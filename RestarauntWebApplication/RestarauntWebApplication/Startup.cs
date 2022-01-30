@@ -68,6 +68,7 @@ namespace RestarauntWebApplication
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapHub<NotificationHub>("/notification");
             });
+            app.UseStaticFiles();
         }
     }
 }
