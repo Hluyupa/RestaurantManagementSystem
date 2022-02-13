@@ -8,16 +8,51 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <header>
-        <div class="mainMenu">
-            <button>Главная</button>
-            <button>Забронировать место</button>
-            <button>Меню</button>
-        </div>
-        
-    </header>
-    <div>
-        @RenderBody()
+    <div class="mainWrapper">
+        <header class="header">
+            <div class="logo">
+                <img class="image" src="~/images/logo.png" />
+            </div>
+
+
+            <nav role="navigation" class="menu">
+                <ul class="menu_list">
+                    <li class="menu_item_list">
+                        <a href="#" class="menu_item_list_href">
+                            <span class="hrefText">Главная</span>
+                        </a>
+                        <div class="contentBlockMenu">
+
+                        </div>
+                    </li>
+                    <li class="menu_item_list">
+                        <a href="#" class="menu_item_list_href">
+                            <span class="hrefText">Заброинровать место</span>
+                        </a>
+                        <div class="contentBlockMenu">
+
+                        </div>
+                    </li>
+                    <li class="menu_item_list">
+                        <a href="#" class="menu_item_list_href">
+                            <span class="hrefText">Меню</span>
+                        </a>
+                        <div class="contentBlockMenu">
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="content">
+                @RenderBody()
+            </div>
+        </main>
+        <footer class="footer"> 
+
+        </footer>
     </div>
+   
 </body>
 </html>

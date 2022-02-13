@@ -24,7 +24,7 @@ namespace RestarauntClient.ViewModels
         {
             AuthorizationWindow = _authorizationWindow;
             LoginModel = new LoginModel();
-            Client.Instance().httpClient = new RestClient("http://172.20.1.119:8241");
+            Client.Instance().httpClient = new RestClient("http://192.168.0.16:8241");
             AuthCommand = new RelayCommand(authCommand);
         }
 

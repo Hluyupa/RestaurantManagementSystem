@@ -1115,7 +1115,6 @@ C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSyste
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.RazorCoreGenerate.cache
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\Index2.cshtml.g.cs
-C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.RazorTargetAssemblyInfo.cache

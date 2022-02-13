@@ -69,6 +69,7 @@ namespace RestarauntWebApplication
                 endpoints.MapHub<NotificationHub>("/notification");
             });
             app.UseStaticFiles();
+            app.UseHttpsRedirection();
         }
     }
 }
