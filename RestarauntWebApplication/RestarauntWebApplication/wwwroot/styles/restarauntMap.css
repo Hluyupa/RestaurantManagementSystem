@@ -1,0 +1,48 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+:root {
+    --green: #C8D35B;
+    --lightgreen: #D2F079;
+    --brown: #A2663E;
+    --lightbrown: #E0B65A;
+    --lightyellow: #F0F05A;
+}
+
+.mapArea {
+    height: 57vh;
+    display: grid;
+    margin-top: 25px;
+    border: 2px solid var(--brown);
+    grid-template-columns: 1fr 0.25fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "map properties"
+}
+
+.map {
+    z-index:0;
+    display:grid;
+    grid-area: map;
+    background-color: aqua;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+
+}
+
+.twoPlaces {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: var(--lightbrown);
+   
+}
+
+.fourPlaces {
+
+}
+
+.properties {
+    grid-area: properties;
+}
+
+
+
+
+

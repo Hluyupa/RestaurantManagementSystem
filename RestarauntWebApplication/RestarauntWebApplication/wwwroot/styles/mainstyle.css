@@ -63,7 +63,7 @@
 .menu_item_list {
     
     border-radius: 10px;
-    position: relative;
+    
 }
 
 .menu_item_list_href {
@@ -126,10 +126,9 @@
 }
 
 .main {
-    height: 2000px;
     display: grid;
     grid-area: main;
-    grid-template-columns: 0.25fr 1fr 0.25fr;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
     grid-template-rows: 1fr;
     
 }
