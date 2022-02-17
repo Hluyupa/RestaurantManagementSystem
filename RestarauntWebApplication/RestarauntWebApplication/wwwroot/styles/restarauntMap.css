@@ -17,26 +17,7 @@
     grid-template-areas: "map properties"
 }
 
-.map {
-    z-index:0;
-    display:grid;
-    grid-area: map;
-    background-color: aqua;
-    grid-template-columns: 100px 1fr 1fr;
-    grid-template-rows: 100px 1fr 1fr;
 
-}
-
-.twoPlaces {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    background-color: var(--lightbrown);
-   
-}
-
-.fourPlaces {
-
-}
 
 .properties {
     grid-area: properties;

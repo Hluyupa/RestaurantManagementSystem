@@ -1,0 +1,27 @@
+﻿@model IEnumerable<RestarauntWebApplication.Models.EFModels.Dish>
+
+<head>
+    <link rel="stylesheet" href="~/styles/menuStyle.css" />
+</head>
+
+<div class="menuContent">
+
+
+    <table class="dishesList">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.DishName
+                </td>
+                <td>
+                    @item
+                </td>
+                <td>
+                    @item.Cost.ToString("#,## руб.")
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
