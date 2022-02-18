@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user452.CHENK\\Source\\Repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {}
+    "C:\\Users\\user452.CHENK\\source\\repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user452.CHENK\\Source\\Repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {
+    "C:\\Users\\user452.CHENK\\source\\repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user452.CHENK\\Source\\Repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\user452.CHENK\\source\\repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
         "projectName": "RestarauntWebApplication",
-        "projectPath": "C:\\Users\\user452.CHENK\\Source\\Repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+        "projectPath": "C:\\Users\\user452.CHENK\\source\\repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
         "packagesPath": "C:\\Users\\user452.CHENK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user452.CHENK\\Source\\Repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\user452.CHENK\\source\\repos\\Hluyupa\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

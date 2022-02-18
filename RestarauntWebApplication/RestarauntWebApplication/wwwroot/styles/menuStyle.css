@@ -1,4 +1,11 @@
-﻿
+﻿:root {
+    --green: #C8D35B;
+    --lightgreen: #D2F079;
+    --brown: #A2663E;
+    --lightbrown: #E0B65A;
+    --lightyellow: #F0F05A;
+}
+
 .menuContent {
     display:grid;
     grid-template-columns: 1fr auto 1fr;
@@ -6,11 +13,20 @@
     font-weight:400;
 }
 
-.dishesList{
-    border-spacing: 50px 10px;
+.dishesList {
+    border-collapse:collapse;
+    
+   
     grid-column: 2/3;
 }
 
-.dishesList tr td {
-    text-align: center;
+
+.dishesList tr {
+    
+    border-bottom: 2px solid var(--brown);
 }
+
+    .dishesList tr td {
+        padding: 10px 50px;
+        text-align: center;
+    }

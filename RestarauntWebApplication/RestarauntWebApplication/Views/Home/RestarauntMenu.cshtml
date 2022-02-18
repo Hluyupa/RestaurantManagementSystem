@@ -4,24 +4,51 @@
     <link rel="stylesheet" href="~/styles/menuStyle.css" />
 </head>
 
+
 <div class="menuContent">
-
-
-    <table class="dishesList">
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @item.DishName
-                </td>
-                <td>
+    <div class="wrapper">
+        @{
+            var typesDish = Model.GroupBy(e => e.DishType.DishTypeName).Select(p => p.Key);
+            foreach (var item in typesDish)
+            {
+                <p>
+                    <input type="radio" name="point" id="@item" />
                     @item
-                </td>
-                <td>
-                    @item.Cost.ToString("#,## руб.")
-                </td>
-            </tr>
-        }
+                </p>
 
-    </table>
+            }
+
+        <div class="slider">
+            @foreach (var type in typesDish)
+            {
+                <div class="slides">
+                    <table class="dishesList">
+                        @foreach (var item in Model)
+                        {
+                            if (item.DishType.DishTypeName != type)
+                            {
+                                return;
+                            }
+                            <tr>
+                                <td>
+                                    @item.DishName
+                                </td>
+                                <td>
+                                    @item.DishType.DishTypeName
+                                </td>
+                                <td>
+                                    @string.Format("{0:00} руб.", item.DishCost)
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+                </div>
+            }
+        </div>
+        }
+    </div>
+
+
+    
 </div>

@@ -32,6 +32,7 @@ namespace RestarauntWebApplication.Controllers
         {
             var menu = _context.Dishes.Include(p => p.DishType).Include(p=>p.DishesIngridients).ToList();
             /*var menu = _context.Dishes.Select(e => new DishView() { Name = e.DishName, Cost = (decimal)(e.DishCost ?? 0), Type = e.DishType.DishTypeName }).ToList();*/
+            ViewData["asas"] = new List<object>();
             return View(menu);
         }
     }
