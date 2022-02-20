@@ -6,49 +6,33 @@
 
 
 <div class="menuContent">
-    <div class="wrapper">
-        @{
-            var typesDish = Model.GroupBy(e => e.DishType.DishTypeName).Select(p => p.Key);
-            foreach (var item in typesDish)
-            {
-                <p>
-                    <input type="radio" name="point" id="@item" />
-                    @item
-                </p>
-
+   
+    @{
+        var dishType = Model.GroupBy(p => p.DishType).Select(p => p.Key);
+        foreach (var type in dishType)
+        {
+            <p>
+                @type.DishTypeName
+            </p>
+            <table class="dishesList">
+                @foreach (var item in Model.Where(p => p.DishType.DishTypeName.Equals(type.DishTypeName)))
+                {
+                    <tr>
+                        <td>
+                            @item.DishName
+                        </td>
+                       
+                        <td>
+                            @string.Format("{0:00} руб.", item.DishCost)
+                        </td>
+                    </tr>
+                }
+            </table>
             }
-
-        <div class="slider">
-            @foreach (var type in typesDish)
-            {
-                <div class="slides">
-                    <table class="dishesList">
-                        @foreach (var item in Model)
-                        {
-                            if (item.DishType.DishTypeName != type)
-                            {
-                                return;
-                            }
-                            <tr>
-                                <td>
-                                    @item.DishName
-                                </td>
-                                <td>
-                                    @item.DishType.DishTypeName
-                                </td>
-                                <td>
-                                    @string.Format("{0:00} руб.", item.DishCost)
-                                </td>
-                            </tr>
-                        }
-
-                    </table>
-                </div>
-            }
-        </div>
+           
         }
-    </div>
 
-
+    
+        
     
 </div>

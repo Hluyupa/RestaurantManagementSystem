@@ -1279,3 +1279,5 @@ C:\Users\user452.CHENK\Source\Repos\Hluyupa\RestaurantManagementSystem\Restaraun
 C:\Users\user452.CHENK\Source\Repos\Hluyupa\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.genruntimeconfig.cache
 C:\Users\user452.CHENK\Source\Repos\Hluyupa\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntMenu.cshtml.g.cs
 C:\Users\user452.CHENK\Source\Repos\Hluyupa\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntMenu.cshtml.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
