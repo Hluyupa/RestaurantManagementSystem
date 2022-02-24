@@ -18,12 +18,12 @@ namespace RestarauntWebApplication.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult MainPage()
         {
             return View();
         }
 
-        public IActionResult Index2()
+        public IActionResult RestarauntMap()
         {
             return View();
         }

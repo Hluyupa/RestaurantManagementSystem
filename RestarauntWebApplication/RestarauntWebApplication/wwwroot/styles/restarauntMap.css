@@ -8,13 +8,44 @@
 }
 
 .mapArea {
-    height: 57vh;
+    
     display: grid;
     margin-top: 25px;
-    border: 2px solid var(--brown);
+    
     grid-template-columns: 1fr 0.25fr;
     grid-template-rows: 1fr;
     grid-template-areas: "map properties"
+}
+
+
+.map{
+    grid-area: map;
+    position: relative;
+}
+
+
+
+svg{
+    position:absolute;
+    top:-2px;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.placeForTwo{
+
+    opacity:0.3;
+}
+
+.svgText{
+    
+    position: absolute;
+}
+
+.placeForTwo:hover{
+    transition: 0.2s ease;
+    opacity:0.6;
 }
 
 
