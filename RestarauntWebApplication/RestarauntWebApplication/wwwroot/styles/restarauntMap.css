@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
 :root {
     --green: #C8D35B;
     --lightgreen: #D2F079;
@@ -16,50 +17,32 @@
 }
 
 
-.map{
-    margin:5px;
+.map {
+    margin: 5px;
     grid-area: map;
     position: relative;
 }
 
-
-
-/*svg{
-    position:absolute;
-    top:-2px;
-    left:0;
-    height:100%;
-    width:100%;
-}*/
-
 .table {
     opacity: 0.3;
+    transition: 0.2s ease;
 }
 
-.svgText{
-    
+.svgText {
     position: absolute;
 }
-
-.table:hover{
-    transition: 0.2s ease;
-    opacity: 0.6;
-
-}
-
-
 
 .properties {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.5fr;
-    
-    margin:5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5px;
     grid-area: properties;
 }
 
 .dateTime {
-    grid-row:1/2;
+    grid-row: 1/2;
+    transition: 0.2s ease;
     text-align: center;
 }
 
@@ -67,11 +50,15 @@
     grid-row: 2/3;
     font-size: small;
     text-align: center;
+    transition: 1.2s ease;
 }
 
-
-
-
-
-
-
+.bookingButton {
+    grid-row: 3/4;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--green);
+    display: block;
+    color: var(--brown);
+}
