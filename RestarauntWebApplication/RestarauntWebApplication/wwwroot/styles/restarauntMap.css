@@ -8,10 +8,8 @@
 }
 
 .mapArea {
-    
     display: grid;
     margin-top: 25px;
-    
     grid-template-columns: 1fr 0.25fr;
     grid-template-rows: 1fr;
     grid-template-areas: "map properties"
@@ -19,23 +17,23 @@
 
 
 .map{
+    margin:5px;
     grid-area: map;
     position: relative;
 }
 
 
 
-svg{
+/*svg{
     position:absolute;
     top:-2px;
     left:0;
     height:100%;
     width:100%;
-}
+}*/
 
-.placeForTwo{
-
-    opacity:0.3;
+.table {
+    opacity: 0.3;
 }
 
 .svgText{
@@ -43,16 +41,35 @@ svg{
     position: absolute;
 }
 
-.placeForTwo:hover{
+.table:hover{
     transition: 0.2s ease;
-    opacity:0.6;
+    opacity: 0.6;
+
 }
 
 
 
 .properties {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    
+    margin:5px;
     grid-area: properties;
 }
+
+.dateTime {
+    grid-row:1/2;
+    text-align: center;
+}
+
+.userInfo {
+    grid-row: 2/3;
+    font-size: small;
+    text-align: center;
+}
+
+
 
 
 
