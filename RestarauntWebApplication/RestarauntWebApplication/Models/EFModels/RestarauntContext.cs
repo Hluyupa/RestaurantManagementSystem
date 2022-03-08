@@ -35,11 +35,11 @@ namespace RestarauntWebApplication.Models.EFModels
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            /*if (!optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Server=DESKTOP-RM2SOEB\\SQLEXPRESS;Database=Restaraunt;Trusted_Connection=True;");
-            }*/
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -48,9 +48,7 @@ namespace RestarauntWebApplication.Models.EFModels
 
             modelBuilder.Entity<Administrator>(entity =>
             {
-                entity.Property(e => e.AdministratorId)
-                    .ValueGeneratedNever()
-                    .HasColumnName("administrator_id");
+                entity.Property(e => e.AdministratorId).HasColumnName("administrator_id");
 
                 entity.Property(e => e.WorkerId).HasColumnName("worker_id");
 
@@ -269,7 +267,14 @@ namespace RestarauntWebApplication.Models.EFModels
 
                 entity.Property(e => e.TableCountSeat).HasColumnName("table_count_seat");
 
-                entity.Property(e => e.TableNumber).HasColumnName("table_number");
+                entity.Property(e => e.TableDescription)
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasColumnName("table_description");
+
+                entity.Property(e => e.TableMapPosition)
+                    .IsUnicode(false)
+                    .HasColumnName("table_map_position");
             });
 
             modelBuilder.Entity<Visitor>(entity =>

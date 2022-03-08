@@ -14,8 +14,9 @@ namespace RestarauntWebApplication.Models.EFModels
         }
 
         public int TableId { get; set; }
-        public int? TableNumber { get; set; }
+        public string TableDescription { get; set; }
         public int? TableCountSeat { get; set; }
+        public string TableMapPosition { get; set; }
 
         public virtual ICollection<ServiceZone> ServiceZones { get; set; }
         public virtual ICollection<VisitorsTable> VisitorsTables { get; set; }

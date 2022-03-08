@@ -1,4 +1,8 @@
-﻿<head>
+﻿@using RestarauntWebApplication.Models.EFModels
+@model List<RestarauntWebApplication.Models.EFModels.Table>
+
+
+<head>
     <link rel="stylesheet" href="~/styles/restarauntMap.css" />
 </head>
 
@@ -59,45 +63,70 @@
                     -108 114 -250 156 -395 117z m202 -9 c76 -20 134 -55 188 -113 214 -229 86
                     -601 -225 -655 -165 -28 -343 64 -416 216 -145 301 130 636 453 552z" />
             </g>
-            <path id="2"
-                  class="table"
-                  d="m 190.61883,0.59137176 -0.0759,119.94410824 120.01278,0.0348 -0.0697,-119.94308552 z"
-                  fill="#C8D35B"
-                  description-data="Столик на 2 персоны.">
+            @{ 
+                foreach (var item in Model.ToList())
+                {
+                    <path id="@item.TableId"
+                          class="table"
+                          d="@item.TableMapPosition"
+                          fill="#C8D35B"
+                          description-data="Столик номер @item.TableId.ToString() на @item.TableCountSeat.ToString() персоны.">
 
-            </path>
-            <path id="3"
-                  class="table"
-                  d="M 191,481 V 600 H 310 V 481 H 191 v 0"
-                  fill="#C8D35B"
-                  description-data="Столик на 2 персоны.">
-
-            </path>
-
-            <path id="4"
-                  class="table"
-                  d="M 451,401 V 600 H 580 V 401 Z"
-                  fill="#C8D35B"
-                  description-data="Столик на 4 персоны.">
-
-            </path>
+                    </path>
+                }
+            }
+            
 
 
         </svg>
     </div>
-    <div class="properties">
+
+    <!--Блок с выбором даты и описанием-->
+    <form class="properties">
         <div class="dateTime">
-            <input type="datetime-local" min="11:00" max="23:00" />
+            <input type="datetime-local" min="11:00" max="23:00" name="DateBooking" required/>
         </div>
-        <span class="userInfo">
-            Наведитесь на столик, чтобы узнать о нём больше информации
-        </span>
+
+        <div class="userInfo">
+            Кликните на столик, чтобы узнать о нём больше информации
+        </div>
         <div class="booking">
-            <input type="button" class="bookingButton" value="Заброинровать"/>
-                
-            
+            <button type="submit" class="button">
+                <span class="buttonText">Забронировать</span>
+            </button>
         </div>
+    </form>
+
+    <div class="userInfoFormShadow">
+
     </div>
 
+    <!--Блок для ввода информации пользователя-->
+    <div class="userInfoForm">
+        <p>Форма для ввода информации</p>
+        <p>Для того, чтобы мы смогли забронировать для вас место, заполните следующие поля</p>
+        <form asp-controller="Home" asp-action="CreateVisitor">
+
+            <p class="form-row">
+                <label for="fullname">ФИО</label>
+                <input type="text" name="VisitorFullName" required />
+            </p>
+
+            <p class="form-row">
+                <label for="email">e-Mail</label>
+                <input type="email" name="VisitorEmail" required />
+            </p>
+            <p class="form-row">
+                <label for="telephone">Телефон</label>
+                <input type="tel" name="VisitorTelephone" required />
+            </p>
+            <p class="form-row">
+                <button type="submit" class="button">
+                    <span class="buttonText">Отправить</span>
+                </button>
+            </p>
+
+        </form>
+    </div>
 </div>
 
