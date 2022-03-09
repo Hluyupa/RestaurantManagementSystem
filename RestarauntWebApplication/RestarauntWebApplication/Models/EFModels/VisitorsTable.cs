@@ -7,6 +7,10 @@ namespace RestarauntWebApplication.Models.EFModels
 {
     public partial class VisitorsTable
     {
+        public VisitorsTable()
+        {
+            Visitor = new Visitor();
+        }
         public int VisitorId { get; set; }
         public int TableId { get; set; }
         public DateTime? DateBooking { get; set; }

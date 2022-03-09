@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Мои работы\\Диплом\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {}
+    "C:\\Users\\user35.CHENK\\Desktop\\asd\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Мои работы\\Диплом\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {
+    "C:\\Users\\user35.CHENK\\Desktop\\asd\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Мои работы\\Диплом\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\user35.CHENK\\Desktop\\asd\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
         "projectName": "RestarauntWebApplication",
-        "projectPath": "C:\\Users\\User\\Desktop\\Мои работы\\Диплом\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Мои работы\\Диплом\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
+        "projectPath": "C:\\Users\\user35.CHENK\\Desktop\\asd\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\RestarauntWebApplication.csproj",
+        "packagesPath": "C:\\Users\\user35.CHENK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user35.CHENK\\Desktop\\asd\\RestaurantManagementSystem\\RestarauntWebApplication\\RestarauntWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user35.CHENK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -91,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,12 +10,12 @@
 		}
 	)
 	
-	$('.button').click(
+	/*$('.button').click(
 		function () {
 			if (value == false) {
 				alert("Выберите столик, который хотите забронировать");
-				/*$('.userInfoForm').html("Выберите столик, который хотите забронировать").css({ "text-align": "center" }).fadeIn();
-				$('.userInfoFormShadow').fadeIn();*/
+				$('.userInfoForm').html("Выберите столик, который хотите забронировать").css({ "text-align": "center" }).fadeIn();
+				$('.userInfoFormShadow').fadeIn();
 			}
 			else
 			{
@@ -30,5 +30,5 @@
 			$('.userInfoForm').fadeOut();
 			$('.userInfoFormShadow').fadeOut();
 		}
-	)
+	)*/
 });

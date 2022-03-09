@@ -1,0 +1,50 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+:root {
+    --green: #C8D35B;
+    --lightgreen: #D2F079;
+    --brown: #A2663E;
+    --lightbrown: #E0B65A;
+    --lightyellow: #F0F05A;
+    --lightyellowBackground: #F7F7B6;
+}
+
+.userInfoForm {
+    color: var(--brown);
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.userInfoForm > p:first-child {
+    font-weight: 700;
+}
+
+.userInfoForm > p:first-child, .userInfoForm > p {
+    text-align: center;
+}
+
+.userInfoForm p {
+    font-weight: 400;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "label input"
+}
+
+.form-row > label {
+    grid-area: label;
+}
+
+.form-row > input {
+    grid-area: input;
+}
+
+.form-row .button {
+    grid-column: 1/3;
+    width: 100%;
+    height: 50px;
+}

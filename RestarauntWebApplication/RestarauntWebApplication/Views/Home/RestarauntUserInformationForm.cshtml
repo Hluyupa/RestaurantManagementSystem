@@ -1,0 +1,31 @@
+﻿<head>
+    <link rel="stylesheet" href="~/styles/restarauntUserInformationForm.css"/>
+</head>
+
+<!--Блок для ввода информации пользователя-->
+<div class="userInfoForm">
+    <p>Форма для ввода информации</p>
+    <p>Для того, чтобы мы смогли забронировать для вас место, заполните следующие поля</p>
+    <form asp-controller="Home" asp-action="CreateVisitor">
+
+        <p class="form-row">
+            <label for="fullname">ФИО</label>
+            <input type="text" name="VisitorFullName" required />
+        </p>
+
+        <p class="form-row">
+            <label for="email">e-Mail</label>
+            <input type="email" name="VisitorEmail" required />
+        </p>
+        <p class="form-row">
+            <label for="telephone">Телефон</label>
+            <input type="tel" name="VisitorTelephone" required />
+        </p>
+        <p class="form-row">
+            <button type="submit" class="button">
+                <span class="buttonText">Отправить</span>
+            </button>
+        </p>
+
+    </form>
+</div>
