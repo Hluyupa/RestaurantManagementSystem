@@ -1,4 +1,6 @@
-﻿$(document).ready(function () {
+﻿//const { type } = require("jquery");
+
+$(document).ready(function () {
 	var value = false;
 	$('.table').click(
 		function () {
@@ -7,6 +9,38 @@
 			$('.userInfo').html($(this).attr('description-data'));
 			//$(this).attr('fill', '#C8D35B');
 			$(this).css({ "opacity": "0.8" });
+
+			$.ajax({
+				type: "POST",
+				url: "Home/GetBookingList",
+				success: function (responce) {
+					$(responce).each(function () {
+						alert(this.TableId);
+					})
+				},
+				f
+			});
+		}
+
+		
+	)
+
+
+	$('.dateTimeBooking').change(
+		function () {
+			$.ajax({
+				type: "POST",
+				url: "/Home/GetBookingList",
+				success: function (responce) {
+					$(responce).each(function () {
+						alert(this.TableId);
+					})
+				},
+
+				error: function (responce) {
+					alert(responce.responseText);
+				}
+			});
 		}
 	)
 	

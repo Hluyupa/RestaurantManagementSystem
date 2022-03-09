@@ -1435,3 +1435,4 @@ C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplic
 C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.pdb
 C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.genruntimeconfig.cache
 C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntUserInformationForm.cshtml.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntUserInformationForm.cshtml.g.cs

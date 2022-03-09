@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\
 RestarauntClient
 none
 false
 DEBUG;TRACE
-C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\App.xaml
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\App.xaml
 201138646481
 
 68-846133747
-155-830651180
+155-1768933442
 Styles\MainStyle.xaml;View\Pages\AddDishInMenuPage.xaml;View\Pages\AddIngridientsInStoragePage.xaml;View\Pages\AddRestarauntIngridientsPage.xaml;View\Pages\AddRestarauntWorkersPage.xaml;View\Pages\CheckIngridientsStoragePage.xaml;View\Pages\CookCheckNewDishesForCookingPage.xaml;View\Pages\DishCookingPage.xaml;View\Pages\DishesInMenuPage.xaml;View\Pages\OrderDetailsPage.xaml;View\Pages\RestarauntIngridientsPage.xaml;View\Pages\RestarauntWorkersPage.xaml;View\Pages\UpdateDishInMenuPage.xaml;View\Pages\WaiterCheckOrderPage.xaml;View\Pages\WaiterCreateNewOrderPage.xaml;View\Pages\WaiterCreateOrderPage.xaml;View\Windows\AdministratorWindow.xaml;View\Windows\AuthorizationWindow.xaml;View\Windows\CookWindow.xaml;View\Windows\WaiterWindow.xaml;
 
 True

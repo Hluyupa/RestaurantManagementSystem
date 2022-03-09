@@ -12,10 +12,9 @@ namespace RestarauntWebApplication.Controllers
     public class HomeController : Controller
     {
         private readonly RestarauntContext _context;
-        private VisitorsTable newBooking;
+        private static VisitorsTable newBooking;
         public HomeController(RestarauntContext context)
         {
-            newBooking = new VisitorsTable();
             _context = context;
         }
 
@@ -41,12 +40,10 @@ namespace RestarauntWebApplication.Controllers
         
         public IActionResult CreateBooking(VisitorsTable visitortable)
         {
-           
+            newBooking = new VisitorsTable();
             newBooking.TableId = visitortable.TableId;
             newBooking.DateBooking = visitortable.DateBooking;
-            /*newBooking.VisitorId = 2;
-            _context.VisitorsTables.Add(newBooking);
-            _context.SaveChanges();*/
+          
             return RedirectToAction("RestarauntUserInformationForm");
         }
 
@@ -65,13 +62,16 @@ namespace RestarauntWebApplication.Controllers
                 VisitorEmail = visitor.VisitorEmail,
                 VisitorTelephone=visitor.VisitorTelephone
             };
-            //_context.Visitors.Add(newBooking.Visitor);
-            //newBooking.VisitorId = 16;
             _context.VisitorsTables.Add(newBooking);
             _context.SaveChanges();
             return RedirectToAction("RestarauntMap");
         }
 
-
+        [HttpPost]
+        public JsonResult GetBookingList()
+        {
+            var bookingList = _context.VisitorsTables.ToList();
+            return Json(bookingList);
+        }
     }
 }
