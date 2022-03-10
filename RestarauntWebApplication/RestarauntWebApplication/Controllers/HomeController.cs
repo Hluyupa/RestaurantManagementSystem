@@ -67,7 +67,7 @@ namespace RestarauntWebApplication.Controllers
             return RedirectToAction("RestarauntMap");
         }
 
-        [HttpPost]
+        [HttpGet]
         public JsonResult GetBookingList()
         {
             var bookingList = _context.VisitorsTables.ToList();

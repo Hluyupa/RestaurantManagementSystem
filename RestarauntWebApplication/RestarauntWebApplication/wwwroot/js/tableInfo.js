@@ -10,16 +10,7 @@ $(document).ready(function () {
 			//$(this).attr('fill', '#C8D35B');
 			$(this).css({ "opacity": "0.8" });
 
-			$.ajax({
-				type: "POST",
-				url: "Home/GetBookingList",
-				success: function (responce) {
-					$(responce).each(function () {
-						alert(this.TableId);
-					})
-				},
-				f
-			});
+			
 		}
 
 		
@@ -28,15 +19,28 @@ $(document).ready(function () {
 
 	$('.dateTimeBooking').change(
 		function () {
-			$.ajax({
-				type: "POST",
-				url: "/Home/GetBookingList",
-				success: function (responce) {
-					$(responce).each(function () {
-						alert(this.TableId);
-					})
-				},
+			var dateNow = new Date($('.dateTimeBooking').val());
 
+			$.ajax({
+				type: "GET",
+				url: "/Home/GetBookingList",
+				
+				success: function (responce) {
+					responce.forEach(function (item, i, arr) {
+
+						var dateStartBooking = new Date(item.dateBooking);
+						var dateFinishBooking = new Date(dateStartBooking);
+						dateFinishBooking.setHours(dateFinishBooking.getHours() + 2);
+
+						if ((dateNow >= dateStartBooking) && (dateNow <= dateFinishBooking)) {
+							$('#' + item.tableId).attr('fill', '#FF6666')
+						}
+					});
+					
+				},
+				faulure: function (responce) {
+					alert(responce.responseText);
+				},
 				error: function (responce) {
 					alert(responce.responseText);
 				}
@@ -44,25 +48,5 @@ $(document).ready(function () {
 		}
 	)
 	
-	/*$('.button').click(
-		function () {
-			if (value == false) {
-				alert("Выберите столик, который хотите забронировать");
-				$('.userInfoForm').html("Выберите столик, который хотите забронировать").css({ "text-align": "center" }).fadeIn();
-				$('.userInfoFormShadow').fadeIn();
-			}
-			else
-			{
-				$('.userInfoForm').fadeIn();
-				$('.userInfoFormShadow').fadeIn();
-			}
-		}
-	)
-
-	$('.userInfoFormShadow').click(
-		function () {
-			$('.userInfoForm').fadeOut();
-			$('.userInfoFormShadow').fadeOut();
-		}
-	)*/
+	
 });
