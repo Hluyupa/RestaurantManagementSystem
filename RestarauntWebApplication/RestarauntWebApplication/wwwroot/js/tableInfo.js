@@ -35,6 +35,9 @@ $(document).ready(function () {
 						if ((dateNow >= dateStartBooking) && (dateNow <= dateFinishBooking)) {
 							$('#' + item.tableId).attr('fill', '#FF6666')
 						}
+						else {
+							$('.table').attr('fill', '#C8D35B');
+						}
 					});
 					
 				},

@@ -40,6 +40,10 @@
     height:250px;
 }
 
+.icon{
+
+}
+
 .menu {
    
     grid-area: menu;
@@ -92,6 +96,7 @@
 }
 
 .contentBlockMenu {
+    
     border: 2px solid var(--brown);
     border-radius: 10px;
     visibility: hidden;
@@ -100,18 +105,51 @@
     position: absolute;
     margin-top: -52px;
     margin-left: -2px;
-    z-index:-1;
+    z-index: -1;
     background-color: bisque;
     width: 200px;
-    height: 50px;
+    height: 300px;
+}
+
+.contentBlockMenu > img{
+    grid-row:2/3;
+    justify-self:center;
+    
+    width:50%;
+    opacity:0;
+}
+
+.contentBlockMenu > span {
+    grid-row: 3/4;
+    text-align: center;
+    align-self:center;
+    padding: 20px;
+    
 }
 
 .menu_list .menu_item_list:hover > .contentBlockMenu {
     visibility: visible;
     opacity: 1;
-    display: block;
+    display: grid;
+    grid-template-rows: 60px 1fr 1fr;
+    grid-template-columns: 1fr;
+
     animation-name: contentBlockMenuAnim;
     animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.menu_list .menu_item_list:hover .contentBlockMenu img {
+    animation-name: contentMenuAnim;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.menu_list .menu_item_list:hover .contentBlockMenu span {
+    animation-name: contentMenuAnim;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
@@ -125,6 +163,22 @@
         height: 300px;
     }
 }
+
+@keyframes contentMenuAnim{
+    0% {
+
+        opacity: 0;
+    }
+   
+    50% {
+        opacity: 0;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .main {
     display: grid;
@@ -149,5 +203,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     font-style: italic;
+    color:var(--brown);
 }
 

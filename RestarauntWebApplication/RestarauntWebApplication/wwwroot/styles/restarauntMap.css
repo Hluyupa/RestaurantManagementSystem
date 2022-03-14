@@ -34,9 +34,11 @@
 }
 
 .properties {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
     margin: 5px;
     grid-area: properties;
 }
@@ -57,11 +59,55 @@
     align-self: center;
     justify-self: center;
 }
-.booking {
+
+.bookingInfo {
     grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.colorNotBooking {
+    grid-column:1/2;
+    grid-row:1/2;
+    background-color: var(--lightgreen);
+    opacity:0.3;
+    border:1px solid var(--brown);
+}
+
+.textNotBooking {
+    display: grid;
+    align-items: center;
+    font-size: small;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.colorBooking {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #FF6666;
+    opacity: 0.3;
+    border: 1px solid var(--brown);
+}
+
+.textBooking {
     display:grid;
-    align-self:center;
-    justify-self:center;
+    align-items:center;
+    font-size: small;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    text-align: center;
+}
+
+.booking {
+    grid-row: 4/5;
+    display: grid;
+    align-self: center;
+    justify-self: center;
 }
 .button {
     transition-duration: 0.5s;
@@ -85,16 +131,6 @@
     background-color: var(--lightgreen);
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
 
 .userInfoFormShadow {
     display: none;
