@@ -162,7 +162,7 @@ namespace RestarauntClient.ViewModels
 
             foreach (var item in AddDishes)
             {
-                compositeOrderModel.DishCookOrders.Add(new DishCookOrder { CookId=null, DishId = item.Dish.DishId, DishStatus = "Не готово", DishCount = item.DishCount});
+                compositeOrderModel.DishCookOrders.Add(new DishCookOrder { CookId = null, DishId = item.Dish.DishId, DishStatus = "Не готово", DishCount = item.DishCount });
             }
             var requestOrder = new RestRequest("api/Orders/CompositeOrder", Method.POST).AddJsonBody(compositeOrderModel);
             var responceOrder = Client.Instance().httpClient.Execute(requestOrder);

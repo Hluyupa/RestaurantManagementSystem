@@ -112,7 +112,7 @@ namespace RestarauntClient.ViewModels
             var itemSelected = SelectedIngridientStorage;
             if(Convert.ToInt32(CountIngridients) <= 0 || CountIngridients.Length == 0)
             {
-                MessageBox.Show("Введит количество, которое небходимо закзать", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Введите количество, которое небходимо закзать", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
                 //itemSelected.Ingridient.IngridientUnits = 1;
             }

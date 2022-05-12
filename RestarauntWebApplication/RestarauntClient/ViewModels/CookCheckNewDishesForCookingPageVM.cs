@@ -62,7 +62,11 @@ namespace RestarauntClient.ViewModels
             DishCookOrders = new ObservableCollection<DishCookOrder>();
             AddDishToCooking = new RelayCommand(addDishToCooking);
             DishesForCookingCheck();
-            Client.Instance().hubConnection.On<string>("UpdateOrders", (dishCookOrders) => 
+            Client.Instance().hubConnection.On<string>("NewOrders", (dishCookOrders) => 
+            {
+                DishCookOrders = new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p => p.CookId == null));
+            });
+            Client.Instance().hubConnection.On<string>("UpdateStatusOrders", (dishCookOrders) =>
             {
                 DishCookOrders = new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p => p.CookId == null));
             });

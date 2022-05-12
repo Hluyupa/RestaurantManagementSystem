@@ -72,8 +72,10 @@ namespace RestarauntWebApplication.Controllers
             dishCookOrderUpdateItem.DishStatus = "Готовится"; 
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
-            var test = _context.DishCookOrders.Where(p => p.CookId == null).Include(p => p.Dish).ToList();
-            await _hubContext.Clients.All.SendAsync("UpdateOrders", JsonConvert.SerializeObject(test, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            
+            await _hubContext.Clients.All.SendAsync(
+                "UpdateStatusOrders", 
+                JsonConvert.SerializeObject(dishCookOrderUpdateItem, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 
@@ -85,7 +87,7 @@ namespace RestarauntWebApplication.Controllers
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
             
-            await _hubContext.Clients.All.SendAsync("UpdateOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 
@@ -96,7 +98,7 @@ namespace RestarauntWebApplication.Controllers
             dishCookOrderUpdateItem.DishStatus = "Доставлено";
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
-            await _hubContext.Clients.All.SendAsync("UpdateOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 

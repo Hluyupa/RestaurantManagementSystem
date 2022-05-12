@@ -55,12 +55,16 @@ namespace RestarauntClient.ViewModels
             selectedOrder = _selectedOrder;
             OrderDetailsList = new ObservableCollection<DishCookOrder>();
             GetOrderDetails();
-            Client.Instance().hubConnection.On<string>("UpdateOrders", (dishCookOrders) =>
+            Client.Instance().hubConnection.On<string>("UpdateStatusOrders", (updatedStatusDish) =>
             {
-                OrderDetailsList = new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p=>p.OrderId.Equals(selectedOrder.OrderId)));
+                var findDish = JsonConvert.DeserializeObject<DishCookOrder>(updatedStatusDish);
+                OrderDetailsList.FirstOrDefault(p => p.DishId.Equals(findDish.DishId)).DishStatus = findDish.DishStatus;
+
+                //= new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p=>p.OrderId.Equals(selectedOrder.OrderId)));
             });
         }
 
+        
         private void dishGiven(object obj)
         {
             int orderId = GivenDishSelected.OrderId;

@@ -937,3 +937,4 @@ C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSyste
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.SuggestedBindingRedirects.cache

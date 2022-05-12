@@ -10,10 +10,10 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\App.xaml
-201138646481
+2036629453
 
-67-3774380
-155-1768933442
+67410339996
+155212548483
 Styles\MainStyle.xaml;View\Pages\AddDishInMenuPage.xaml;View\Pages\AddIngridientsInStoragePage.xaml;View\Pages\AddRestarauntIngridientsPage.xaml;View\Pages\AddRestarauntWorkersPage.xaml;View\Pages\CheckIngridientsStoragePage.xaml;View\Pages\CookCheckNewDishesForCookingPage.xaml;View\Pages\DishCookingPage.xaml;View\Pages\DishesInMenuPage.xaml;View\Pages\OrderDetailsPage.xaml;View\Pages\RestarauntIngridientsPage.xaml;View\Pages\RestarauntWorkersPage.xaml;View\Pages\UpdateDishInMenuPage.xaml;View\Pages\WaiterCheckOrderPage.xaml;View\Pages\WaiterCreateNewOrderPage.xaml;View\Pages\WaiterCreateOrderPage.xaml;View\Windows\AdministratorWindow.xaml;View\Windows\AuthorizationWindow.xaml;View\Windows\CookWindow.xaml;View\Windows\WaiterWindow.xaml;
 
 False

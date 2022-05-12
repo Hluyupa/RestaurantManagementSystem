@@ -982,7 +982,6 @@ C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSyste
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.runtimeconfig.json
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.runtimeconfig.dev.json
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.dll
-C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\ref\RestarauntWebApplication.dll
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.pdb
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.Views.dll
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.Views.pdb
@@ -1108,7 +1107,6 @@ C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSyste
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.RazorAssemblyInfo.cache
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.RazorAssemblyInfo.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\staticwebassets\RestarauntWebApplication.StaticWebAssets.Manifest.cache
-C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\staticwebassets\RestarauntWebApplication.StaticWebAssets.xml
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\scopedcss\bundle\RestarauntWebApplication.styles.css
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.TagHelpers.input.cache
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.TagHelpers.output.cache
@@ -1436,3 +1434,4 @@ C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplic
 C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.genruntimeconfig.cache
 C:\Users\user35.CHENK\Desktop\asd\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntUserInformationForm.cshtml.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\Razor\Views\Home\RestarauntUserInformationForm.cshtml.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\refint\RestarauntWebApplication.dll

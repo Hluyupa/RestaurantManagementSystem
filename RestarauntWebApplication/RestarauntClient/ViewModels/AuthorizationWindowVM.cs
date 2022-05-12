@@ -58,7 +58,7 @@ namespace RestarauntClient.ViewModels
                         break;
                 }
                 Client.Instance().hubConnection = new HubConnectionBuilder()
-                   .WithUrl("http://172.20.1.119:8241/notification")
+                   .WithUrl("http://192.168.0.16:8241/notification")
                    .Build();
                 Client.Instance().hubConnection.StartAsync();
             }

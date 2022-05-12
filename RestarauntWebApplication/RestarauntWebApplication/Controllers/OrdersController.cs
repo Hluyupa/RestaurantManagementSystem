@@ -112,7 +112,8 @@ namespace RestarauntWebApplication.Controllers
             _context.Orders.Add(order);
             _context.SaveChanges();
 
-            await _hubContext.Clients.All.SendAsync("UpdateOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Where(p => p.CookId == null).Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync(
+                "NewOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Where(p => p.CookId == null).Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
 
             return Ok(order.OrderId);
         }
