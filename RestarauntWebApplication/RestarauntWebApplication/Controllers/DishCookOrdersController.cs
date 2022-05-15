@@ -67,38 +67,36 @@ namespace RestarauntWebApplication.Controllers
             var worker = _context.Workers.Where(p => p.WorkerLogin.Equals(dishCookOrderUpdateModel.Login)).FirstOrDefault();
             var cook = _context.Cooks.Where(p => p.WorkerId.Equals(worker.WorkerId)).FirstOrDefault();
 
-            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Where(p => p.OrderId.Equals(dishCookOrderUpdateModel.DishCookOrder.OrderId)).Where(p => p.DishId.Equals(dishCookOrderUpdateModel.DishCookOrder.DishId)).ToList().FirstOrDefault();
+            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Include(p=>p.Dish).Where(p => p.OrderId.Equals(dishCookOrderUpdateModel.DishCookOrder.OrderId)).Where(p => p.DishId.Equals(dishCookOrderUpdateModel.DishCookOrder.DishId)).ToList().FirstOrDefault();
             dishCookOrderUpdateItem.CookId = cook.CookId;
             dishCookOrderUpdateItem.DishStatus = "Готовится"; 
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
             
-            await _hubContext.Clients.All.SendAsync(
-                "UpdateStatusOrders", 
-                JsonConvert.SerializeObject(dishCookOrderUpdateItem, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(dishCookOrderUpdateItem, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 
         [HttpPut("UpdateDishStatusDCO")]
         public async Task<ActionResult> UpdateDishStatusDCO(DishCookOrder dishCookOrder)
         {
-            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Where(p => p.OrderId.Equals(dishCookOrder.OrderId)).Where(p => p.DishId.Equals(dishCookOrder.DishId)).ToList().FirstOrDefault();
+            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Include(p => p.Dish).FirstOrDefault(p => p.OrderId.Equals(dishCookOrder.OrderId) && p.DishId.Equals(dishCookOrder.DishId));
             dishCookOrderUpdateItem.DishStatus = "Готово";
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
             
-            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(dishCookOrderUpdateItem, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 
         [HttpPut("UpdateDishGiven")]
         public async Task<ActionResult> UpdateDishGiven(DishCookOrder dishCookOrder)
         {
-            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Where(p => p.OrderId.Equals(dishCookOrder.OrderId)).Where(p => p.DishId.Equals(dishCookOrder.DishId)).ToList().FirstOrDefault();
+            DishCookOrder dishCookOrderUpdateItem = _context.DishCookOrders.Include(p => p.Dish).FirstOrDefault(p => p.OrderId.Equals(dishCookOrder.OrderId) && p.DishId.Equals(dishCookOrder.DishId));
             dishCookOrderUpdateItem.DishStatus = "Доставлено";
             _context.Entry(dishCookOrderUpdateItem).State = EntityState.Modified;
             _context.SaveChanges();
-            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(_context.DishCookOrders.Include(p => p.Dish).ToList(), Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            await _hubContext.Clients.All.SendAsync("UpdateStatusOrders", JsonConvert.SerializeObject(dishCookOrderUpdateItem, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
             return Ok();
         }
 

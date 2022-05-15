@@ -66,9 +66,15 @@ namespace RestarauntClient.ViewModels
             {
                 DishCookOrders = new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p => p.CookId == null));
             });
-            Client.Instance().hubConnection.On<string>("UpdateStatusOrders", (dishCookOrders) =>
+            Client.Instance().hubConnection.On<string>("UpdateStatusOrders", (updatedStatusDish) =>
             {
-                DishCookOrders = new ObservableCollection<DishCookOrder>(JsonConvert.DeserializeObject<ObservableCollection<DishCookOrder>>(dishCookOrders).Where(p => p.CookId == null));
+                var findDish = JsonConvert.DeserializeObject<DishCookOrder>(updatedStatusDish);
+                var checkNull = DishCookOrders.FirstOrDefault(p => p.DishId.Equals(findDish.DishId));
+                if (checkNull != null)
+                {
+                    DishCookOrders.Remove(checkNull);
+                }
+              
             });
         }
 

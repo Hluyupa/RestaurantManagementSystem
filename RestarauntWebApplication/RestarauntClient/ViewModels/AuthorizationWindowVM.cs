@@ -24,7 +24,7 @@ namespace RestarauntClient.ViewModels
         {
             AuthorizationWindow = _authorizationWindow;
             LoginModel = new LoginModel();
-            Client.Instance().httpClient = new RestClient("http://192.168.0.16:8241");
+            Client.Instance().httpClient = new RestClient("http://172.20.2.9:8241");
             AuthCommand = new RelayCommand(authCommand);
         }
 
@@ -58,13 +58,13 @@ namespace RestarauntClient.ViewModels
                         break;
                 }
                 Client.Instance().hubConnection = new HubConnectionBuilder()
-                   .WithUrl("http://192.168.0.16:8241/notification")
+                   .WithUrl("http://172.20.2.9:8241/notification")
                    .Build();
                 Client.Instance().hubConnection.StartAsync();
             }
             else if(responce.StatusCode == System.Net.HttpStatusCode.BadRequest)
             {
-                MessageBox.Show("Неверный логин или пароль", "Ощибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный логин или пароль", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
