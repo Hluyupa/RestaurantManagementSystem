@@ -1060,3 +1060,5 @@ C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Prog
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.csproj.CopyComplete
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.exe
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\OperatorWindow.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\OperatorWindow.baml

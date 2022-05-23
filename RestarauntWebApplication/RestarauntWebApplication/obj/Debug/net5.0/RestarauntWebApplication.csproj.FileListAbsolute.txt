@@ -1589,3 +1589,4 @@ C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Prog
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\ref\RestarauntWebApplication.dll
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.pdb
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntWebApplication\obj\Debug\net5.0\RestarauntWebApplication.genruntimeconfig.cache
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntWebApplication\bin\Debug\net5.0\RestarauntWebApplication.StaticWebAssets.xml

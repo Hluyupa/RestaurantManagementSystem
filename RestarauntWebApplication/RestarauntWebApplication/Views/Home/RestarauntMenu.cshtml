@@ -3,36 +3,38 @@
 <head>
     <link rel="stylesheet" href="~/styles/menuStyle.css" />
 </head>
-
+katana zero ost
 
 <div class="menuContent">
-   
-    @{
-        var dishType = Model.GroupBy(p => p.DishType).Select(p => p.Key);
-        foreach (var type in dishType)
-        {
-            <p>
-                @type.DishTypeName
-            </p>
-            <table class="dishesList">
-                @foreach (var item in Model.Where(p => p.DishType.DishTypeName.Equals(type.DishTypeName)))
-                {
-                    <tr>
-                        <td>
-                            @item.DishName
-                        </td>
+    <div class="pageInformation">
+        <p>Меню ресторана</p>
+        <p>Здесь вы можете просмотреть меню нашего ресторана</p>
+    </div>
+    <div class="dishesMenu">
+        @{
+            var dishType = Model.GroupBy(p => p.DishType).Select(p => p.Key);
+            foreach (var type in dishType)
+            {
+                <p>
+                    @type.DishTypeName
+                </p>
+                <table class="dishesList">
+                    @foreach (var item in Model.Where(p => p.DishType.DishTypeName.Equals(type.DishTypeName)))
+                    {
+                        <tr>
+                            <td>
+                                @item.DishName
+                            </td>
                        
-                        <td>
-                            @string.Format("{0:00} руб.", item.DishCost)
-                        </td>
-                    </tr>
-                }
-            </table>
+                            <td>
+                                @string.Format("{0:00} руб.", item.DishCost)
+                            </td>
+                        </tr>
+                    }
+                </table>
             }
            
         }
-
-    
-        
+    </div>
     
 </div>

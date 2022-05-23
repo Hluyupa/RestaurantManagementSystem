@@ -1,12 +1,28 @@
 ﻿.mainPageContent {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-        "contentDefault1" 
-        "reverseContent" 
+    grid-template-areas:
+        "pageInformation"
+        "contentDefault1"
+        "reverseContent"
         "contentDefault2";
 }
+
+.pageInformation {
+    grid-area: pageInformation;
+
+}
+.pageInformation p:first-child{
+    text-align:center;
+    font-weight:700;
+    font-size:24px;
+        
+}
+.pageInformation p:last-child {
+    text-align:center;
+}
+
 
 .contentDefault1 {
     grid-area: contentDefault1;

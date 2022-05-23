@@ -12,12 +12,50 @@
 
     <div class="mainWrapper">
         <header class="header">
-            <div class="logo">
+            <nav class="menu" role="navigation">
+                <ul class="menu_list">
+                    
+			        <li class="menu_item_list">
+				        <a asp-controller="Home" asp-action="MainPage" class="menu_item_list_href">
+                           
+                            <div class="contentBlockMenu">
+                                 <img src="~/images/cafe.png" />
+                                 <!--<figcaption>Главная</figcaption>-->
+                            </div>
+                        </a>
+			        </li>
+
+			        <li class="menu_item_list">
+                        <a asp-controller="Home" asp-action="RestarauntMap" class="menu_item_list_href">
+                           
+                            <div class="contentBlockMenu">
+                                 <img src="~/images/table.png" />
+                                <!--<figcaption>Заброинровать место</figcaption>-->
+                            </div>
+                        </a>
+			        </li>
+
+			        <li class="menu_item_list">
+				        <a asp-controller="Home" asp-action="RestarauntMenu" class="menu_item_list_href">
+                           
+                            <div class="contentBlockMenu">
+                                <img src="~/images/restaurantMenu.png" />
+                                <!--<figcaption>Меню</figcaption>-->
+                            </div>
+                        </a>
+			        </li>
+                    
+                </ul>
+            </nav>
+
+
+
+            <!--<div class="logo">
                 <img class="image" src="~/images/logo.png" />
-            </div>
+            </div>-->
 
 
-            <nav role="navigation" class="menu">
+            <!--<nav role="navigation" class="menu">
                 <ul class="menu_list">
                     <li class="menu_item_list">
                         <a asp-controller="Home" asp-action="MainPage" class="menu_item_list_href">
@@ -47,7 +85,7 @@
                         </div>
                     </li>
                 </ul>
-            </nav>
+            </nav>-->
         </header>
         <main class="main">
             <div class="content">

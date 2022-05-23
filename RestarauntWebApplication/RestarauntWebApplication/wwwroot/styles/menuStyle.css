@@ -7,15 +7,36 @@
 }
 
 .menuContent {
-    display:grid;
-    grid-template-columns: 1fr 100% 1fr;
-    grid-template-rows: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "pageInformation" 
+        "dishesMenu"; 
     font-weight:400;
 }
 
+.pageInformation {
+    grid-area: pageInformation;
+}
+
+.pageInformation p:first-child {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pageInformation p:last-child {
+    text-align: center;
+}
+
+.dishesMenu {
+    grid-area: dishesMenu;
+}
+
 .dishesList {
-    border-collapse:collapse;
-    grid-column: 2/3;
+    width:100%;
+    border-collapse: collapse;
 }
 
 
@@ -29,9 +50,10 @@
     padding: 10px 50px;
     text-align: center;
 }
-p{
-    grid-column:2/3;
-    text-align:center;
-    font-weight:700;
+.dishesMenu > p {
+    width:100%;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 700;
 }
 

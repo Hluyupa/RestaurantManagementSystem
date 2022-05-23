@@ -1,0 +1,42 @@
+﻿<Window x:Class="RestarauntClient.View.Windows.OperatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestarauntClient.View.Windows"
+        mc:Ignorable="d"
+        Title="Оператор" Height="450" Width="850"
+        Style="{StaticResource WindowStyle}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListView
+            ItemsSource="{Binding MenuItems}"
+            SelectedItem="{Binding SelectedMenuItem}"
+            Grid.Column="0"
+            BorderThickness="0"
+            Padding="0"
+            Background="{StaticResource Green}"
+            HorizontalContentAlignment="Stretch"
+            VerticalContentAlignment="Stretch">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ListViewItem/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Frame
+            Content="{Binding CurrentPage}"
+            NavigationUIVisibility="Hidden"
+            Grid.Column="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>

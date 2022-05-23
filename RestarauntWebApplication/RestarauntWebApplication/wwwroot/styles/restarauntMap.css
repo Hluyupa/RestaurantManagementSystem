@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');*/
 
 :root {
     --green: #C8D35B;
@@ -13,8 +13,24 @@
     display: grid;
     margin-top: 25px;
     grid-template-columns: 1fr 0.25fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "map properties"
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "pageInformation pageInformation"
+        "map properties"
+}
+
+.pageInformation {
+    grid-area: pageInformation;
+}
+
+.pageInformation p:first-child {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pageInformation p:last-child {
+    text-align: center;
 }
 
 
