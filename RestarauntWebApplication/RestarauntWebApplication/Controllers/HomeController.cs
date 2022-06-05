@@ -12,7 +12,7 @@ namespace RestarauntWebApplication.Controllers
     public class HomeController : Controller
     {
         private readonly RestarauntContext _context;
-        private static VisitorsTable newBooking;
+        //private static VisitorsTable newBooking;
         public HomeController(RestarauntContext context)
         {
             _context = context;
@@ -37,23 +37,19 @@ namespace RestarauntWebApplication.Controllers
             return View(menu);
         }
 
-        
-        public IActionResult CreateBooking(VisitorsTable visitortable)
-        {
-            newBooking = new VisitorsTable();
-            newBooking.TableId = visitortable.TableId;
-            newBooking.DateBooking = visitortable.DateBooking;
-          
-            return RedirectToAction("RestarauntUserInformationForm");
-        }
-
-        public IActionResult RestarauntUserInformationForm()
-        {
-            return View();
-        }
-
         [HttpPost]
-        public IActionResult CreateVisitor(Visitor visitor)
+        public void CreateBooking(VisitorsTable visitortable)
+        {
+            _context.VisitorsTables.Add(visitortable);
+            _context.SaveChanges();
+            /*VisitorsTable newBooking = new VisitorsTable();
+            newBooking.TableId = visitortable.TableId;
+            newBooking.DateBooking = visitortable.DateBooking;*/
+          
+            //return RedirectToAction("RestarauntUserInformationForm");
+        }
+        /*[HttpPost]
+        public void CreateVisitor(Visitor visitor)
         {
             
             newBooking.Visitor = new Visitor 
@@ -64,8 +60,8 @@ namespace RestarauntWebApplication.Controllers
             };
             _context.VisitorsTables.Add(newBooking);
             _context.SaveChanges();
-            return RedirectToAction("RestarauntMap");
-        }
+            //return RedirectToAction("RestarauntMap");
+        }*/
 
         [HttpGet]
         public JsonResult GetBookingList()
@@ -73,5 +69,7 @@ namespace RestarauntWebApplication.Controllers
             var bookingList = _context.VisitorsTables.ToList();
             return Json(bookingList);
         }
+
+       
     }
 }

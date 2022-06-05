@@ -26,6 +26,7 @@ namespace RestarauntClient.ViewModels
         private WaiterWindowVM WaiterWindowVM;
         public RelayCommand AddDishCommand { get; set; }
         public RelayCommand AddDishInOrder { get; set; }
+        public RelayCommand RemoveDishFromOrder { get; set; }
 
         private ObservableCollection<DishListModel> addDishes;
         public ObservableCollection<DishListModel> AddDishes 
@@ -41,7 +42,7 @@ namespace RestarauntClient.ViewModels
             set 
             {
                 addDishes = value;
-                OnPropertyChanged("AddDishes");
+                OnPropertyChanged();
             } 
         }
 
@@ -92,7 +93,8 @@ namespace RestarauntClient.ViewModels
         } 
 
         private DishType dishTypeSelected;
-        public DishType DishTypeSelected { 
+        public DishType DishTypeSelected
+        { 
             get 
             {
                 return dishTypeSelected;
@@ -111,13 +113,64 @@ namespace RestarauntClient.ViewModels
                 }
             } 
         }
-        
+
+        private ObservableCollection<Table> tablesList;
+        public ObservableCollection<Table> TablesList
+        {
+            get
+            {
+                return tablesList;
+            }
+            set
+            {
+                tablesList = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private Table selectedTable;
+        public Table SelectedTable
+        {
+            get 
+            {
+                return selectedTable; 
+            }
+            set
+            {
+                selectedTable = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private DishListModel selectedDishForRemove;
+        public DishListModel SelectedDishForRemove
+        {
+            get 
+            { 
+                return selectedDishForRemove; 
+            }
+            set 
+            {
+                selectedDishForRemove = value;
+                OnPropertyChanged();
+            }
+        }
+
+
         public WaiterCreateOrderPageVM(WaiterWindowVM waiterWindowVM)
         {
 
             WaiterWindowVM = waiterWindowVM;
 
             AddDishes = new ObservableCollection<DishListModel>();
+            TablesList = new ObservableCollection<Table>();
+
+            var requestTablesList = new RestRequest("api/Tables", Method.GET);
+            var responceTableList = Client.Instance().httpClient.Execute(requestTablesList);
+            if (responceTableList.StatusCode == HttpStatusCode.OK)
+            {
+                TablesList = JsonSerializer.Deserialize<ObservableCollection<Table>>(responceTableList.Content);
+            }
 
             var requestDishTypes = new RestRequest("api/DishTypes", Method.GET);
             var responceDishTypes = Client.Instance().httpClient.Execute(requestDishTypes);
@@ -146,14 +199,29 @@ namespace RestarauntClient.ViewModels
 
             AddDishCommand = new RelayCommand(addDishCommand);
             AddDishInOrder = new RelayCommand(addDishInOrder);
+            RemoveDishFromOrder = new RelayCommand(removeDishFromOrder);
+        }
 
+        private void removeDishFromOrder(object obj)
+        {
+            if (SelectedDishForRemove == null)
+            {
+                MessageBox.Show("Выберите блюдо, которое хотите удалить из списка заказа!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            AddDishes.Remove(AddDishes.FirstOrDefault(p => p.Dish.DishName.Equals(SelectedDishForRemove.Dish.DishName)));
         }
 
         private void addDishInOrder(object obj)
         {
+            if (AddDishes.Count <= 0)
+            {
+                MessageBox.Show("Добавьте блюда в заказ!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             compositeOrderModel = new CompositeOrderModel 
             {
-                VisitorId = 0,
+                TableId = SelectedTable.TableId,
                 WaiterLogin = WaiterWindowVM.login,
                 OrderNumber = 0,
                 OrderStatus = "Активен",
@@ -168,7 +236,7 @@ namespace RestarauntClient.ViewModels
             var responceOrder = Client.Instance().httpClient.Execute(requestOrder);
             if(responceOrder.StatusCode == HttpStatusCode.OK)
             {
-                MessageBox.Show("Заказ успешно создан");
+                MessageBox.Show("Заказ успешно создан.", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
@@ -184,10 +252,15 @@ namespace RestarauntClient.ViewModels
                 MessageBox.Show("Веберите блюдо");
                 return;
             }
-            
-            AddDishes.Add(new DishListModel { Dish = DishSelected, DishCount = Convert.ToInt32(DishCount)});
-            
-            
+
+            if (AddDishes.Any(p => p.Dish.DishName.Equals(DishSelected.DishName)))
+            {
+                AddDishes.FirstOrDefault(p=>p.Dish.DishName.Equals(DishSelected.DishName)).DishCount+=Convert.ToInt32(DishCount);   
+            }
+            else
+            {
+                AddDishes.Add(new DishListModel { Dish = DishSelected, DishCount = Convert.ToInt32(DishCount) });
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

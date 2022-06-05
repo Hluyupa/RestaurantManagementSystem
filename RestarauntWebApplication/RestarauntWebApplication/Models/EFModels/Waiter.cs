@@ -10,7 +10,6 @@ namespace RestarauntWebApplication.Models.EFModels
         public Waiter()
         {
             Orders = new HashSet<Order>();
-            ServiceZones = new HashSet<ServiceZone>();
         }
 
         public int WaiterId { get; set; }
@@ -18,6 +17,5 @@ namespace RestarauntWebApplication.Models.EFModels
 
         public virtual Worker Worker { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
-        public virtual ICollection<ServiceZone> ServiceZones { get; set; }
     }
 }

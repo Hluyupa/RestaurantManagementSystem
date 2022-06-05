@@ -10,7 +10,7 @@ namespace RestarauntClient.Models
     public class CompositeOrderModel
     {
         public int OrderId { get; set; }
-        public int? VisitorId { get; set; }
+        public int? TableId { get; set; }
         public string WaiterLogin { get; set; }
         public int OrderNumber { get; set; }
         public string OrderStatus { get; set; }

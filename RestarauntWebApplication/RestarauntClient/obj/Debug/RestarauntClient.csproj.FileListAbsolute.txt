@@ -1062,3 +1062,7 @@ C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Prog
 C:\Users\user35.CHENK\Desktop\фывыфвфыв\RestaurantManagementSystem-Program\RestarauntWebApplication\RestarauntClient\obj\Debug\RestarauntClient.pdb
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\OperatorWindow.g.cs
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Windows\OperatorWindow.baml
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\SeatReservationPage.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\SeatReservationPage.baml
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\ServiceZonePage.g.cs
+C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\obj\Debug\View\Pages\ServiceZonePage.baml

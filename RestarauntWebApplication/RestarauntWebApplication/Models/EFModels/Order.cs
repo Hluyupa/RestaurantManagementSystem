@@ -13,12 +13,12 @@ namespace RestarauntWebApplication.Models.EFModels
         }
 
         public int OrderId { get; set; }
-        public int? VisitorId { get; set; }
+        public int? TableId { get; set; }
         public int? WaiterId { get; set; }
         public int? OrderNumber { get; set; }
         public string OrderStatus { get; set; }
 
-        public virtual Visitor Visitor { get; set; }
+        public virtual Table Table { get; set; }
         public virtual Waiter Waiter { get; set; }
         public virtual ICollection<DishCookOrder> DishCookOrders { get; set; }
     }

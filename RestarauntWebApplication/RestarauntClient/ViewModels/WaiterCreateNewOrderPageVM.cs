@@ -4,8 +4,10 @@ using RestarauntClient.View.Pages;
 using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json;
@@ -21,9 +23,6 @@ namespace RestarauntClient.ViewModels
         public RelayCommand CreateOrder { get; set; }
 
         private string number;
-
-        
-
         public string Number
         {
             get 
@@ -38,9 +37,13 @@ namespace RestarauntClient.ViewModels
         }
 
 
+        
+
+
         public WaiterCreateNewOrderPageVM(WaiterWindowVM _waiterWindowVM)
         {
-            
+           
+
             CreateOrder = new RelayCommand(createOrder);
             waiterWindowVM = _waiterWindowVM;
         }

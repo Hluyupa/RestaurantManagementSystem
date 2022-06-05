@@ -13,34 +13,46 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
+        <Grid
+            Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ListView
+                SelectedItem="{Binding SelectedMenuItem}"
+                BorderThickness="0"
+                Padding="0"
+                Background="{StaticResource Green}" 
+                ScrollViewer.CanContentScroll="True"
+                HorizontalContentAlignment="Stretch" 
+                VerticalContentAlignment="Stretch" 
+                IsSynchronizedWithCurrentItem="False">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
 
-        <ListView
+                <ListViewItem
+                    Content="Создать заказ"
+                    Style="{StaticResource MenuItemListView}"/>
+                <ListViewItem
+                    Content="Список заказов"
+                    Style="{StaticResource MenuItemListView}"/>
+                <ListViewItem
+                    Style="{StaticResource MenuItemListView}"
+                    Content="Выход"/>
+            </ListView>
             
-            SelectedItem="{Binding SelectedMenuItem}"
-            Grid.Column="0"
-            BorderThickness="0"
-            Padding="0"
-            Background="{StaticResource Green}" 
-            ScrollViewer.CanContentScroll="True"
-            HorizontalContentAlignment="Stretch" 
-            VerticalContentAlignment="Stretch" 
-            IsSynchronizedWithCurrentItem="False">
-            <ListView.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <StackPanel/>
-                </ItemsPanelTemplate>
-            </ListView.ItemsPanel>
-            
-            <ListViewItem
-                Content="Создать заказ"
-                Style="{StaticResource MenuItemListView}"/>
-            <ListViewItem
-                Content="Список заказов"
-                Style="{StaticResource MenuItemListView}"/>
-            <ListViewItem
-                Style="{StaticResource MenuItemListView}"
-                Content="Выход"/>
-        </ListView>
+            <Image 
+                VerticalAlignment="Bottom"
+                Margin="10px"
+                Height="150px"
+                Source="/Resources/logo.png" />
+
+        </Grid>
+       
         <Frame 
             Content="{Binding CurrentPage}" 
             NavigationUIVisibility="Hidden"

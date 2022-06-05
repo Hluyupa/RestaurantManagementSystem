@@ -13,6 +13,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Image 
+            Source="/Resources/logo.png"
+            Margin="10px"
+            Height="150px"/>
         <StackPanel
             Grid.Row="1"
             VerticalAlignment="Center">

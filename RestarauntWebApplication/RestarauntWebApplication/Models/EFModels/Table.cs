@@ -9,7 +9,7 @@ namespace RestarauntWebApplication.Models.EFModels
     {
         public Table()
         {
-            ServiceZones = new HashSet<ServiceZone>();
+            Orders = new HashSet<Order>();
             VisitorsTables = new HashSet<VisitorsTable>();
         }
 
@@ -17,8 +17,9 @@ namespace RestarauntWebApplication.Models.EFModels
         public string TableDescription { get; set; }
         public int? TableCountSeat { get; set; }
         public string TableMapPosition { get; set; }
+        public int? TableFloor { get; set; }
 
-        public virtual ICollection<ServiceZone> ServiceZones { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<VisitorsTable> VisitorsTables { get; set; }
     }
 }

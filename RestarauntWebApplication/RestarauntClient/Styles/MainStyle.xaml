@@ -6,6 +6,8 @@
     <SolidColorBrush x:Key="Brown" Color="#A2663E"/>       <!--Цвет текста-->
     <SolidColorBrush x:Key="LightYellow" Color="#F0F05A"/> <!--Фон при взаимодействии-->
 
+
+    
     <!--Стиль для Button-->
     <Style TargetType="Button" x:Key="DefaultButton">
         <Setter Property="Template">

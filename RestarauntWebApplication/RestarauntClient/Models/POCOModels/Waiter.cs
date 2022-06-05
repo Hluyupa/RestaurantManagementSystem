@@ -17,7 +17,6 @@ namespace RestarauntClient.Models.POCOModels
         public virtual Worker Worker { get; set; }
         [JsonPropertyName("orders")]
         public virtual ICollection<Order> Orders { get; set; }
-        [JsonPropertyName("serviceZones")]
-        public virtual ICollection<ServiceZone> ServiceZones { get; set; }
+       
     }
 }

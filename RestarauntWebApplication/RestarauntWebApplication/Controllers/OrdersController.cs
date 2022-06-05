@@ -104,7 +104,15 @@ namespace RestarauntWebApplication.Controllers
         {
             var _worker = _context.Workers.FirstOrDefault(p => p.WorkerLogin.Equals(compositeOrder.WaiterLogin));
             var _waiter = _context.Waiters.FirstOrDefault(p => p.WorkerId.Equals(_worker.WorkerId));
-            Order order = new Order {VisitorId = null, WaiterId = _waiter.WaiterId, OrderNumber = compositeOrder.OrderNumber, OrderStatus = compositeOrder.OrderStatus};
+            Order order = new Order 
+            {
+                TableId = compositeOrder.TableId, 
+                WaiterId = _waiter.WaiterId,
+                OrderNumber = compositeOrder.OrderNumber,
+                OrderStatus = compositeOrder.OrderStatus
+            };
+
+            //order.DishCookOrders.ToList().AddRange(compositeOrder.DishCookOrders);
 
             foreach (var item in compositeOrder.DishCookOrders)
             {

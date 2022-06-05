@@ -26,7 +26,6 @@ namespace RestarauntWebApplication.Models.EFModels
         public virtual DbSet<Ingridient> Ingridients { get; set; }
         public virtual DbSet<Operator> Operators { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
-        public virtual DbSet<ServiceZone> ServiceZones { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<Visitor> Visitors { get; set; }
         public virtual DbSet<VisitorsTable> VisitorsTables { get; set; }
@@ -37,7 +36,7 @@ namespace RestarauntWebApplication.Models.EFModels
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+
                 optionsBuilder.UseSqlServer("Server=DESKTOP-RM2SOEB\\SQLEXPRESS;Database=Restaraunt;Trusted_Connection=True;");
             }
         }
@@ -223,42 +222,19 @@ namespace RestarauntWebApplication.Models.EFModels
                     .IsUnicode(false)
                     .HasColumnName("order_status");
 
-                entity.Property(e => e.VisitorId).HasColumnName("visitor_id");
+                entity.Property(e => e.TableId).HasColumnName("table_id");
 
                 entity.Property(e => e.WaiterId).HasColumnName("waiter_id");
 
-                entity.HasOne(d => d.Visitor)
+                entity.HasOne(d => d.Table)
                     .WithMany(p => p.Orders)
-                    .HasForeignKey(d => d.VisitorId)
-                    .HasConstraintName("FK_Orders_Visitors");
+                    .HasForeignKey(d => d.TableId)
+                    .HasConstraintName("FK_Orders_Tables");
 
                 entity.HasOne(d => d.Waiter)
                     .WithMany(p => p.Orders)
                     .HasForeignKey(d => d.WaiterId)
                     .HasConstraintName("FK_Orders_Waiters1");
-            });
-
-            modelBuilder.Entity<ServiceZone>(entity =>
-            {
-                entity.HasKey(e => new { e.WaiterId, e.TableId });
-
-                entity.ToTable("Service_zone");
-
-                entity.Property(e => e.WaiterId).HasColumnName("waiter_id");
-
-                entity.Property(e => e.TableId).HasColumnName("table_id");
-
-                entity.HasOne(d => d.Table)
-                    .WithMany(p => p.ServiceZones)
-                    .HasForeignKey(d => d.TableId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Service_zone_Tables");
-
-                entity.HasOne(d => d.Waiter)
-                    .WithMany(p => p.ServiceZones)
-                    .HasForeignKey(d => d.WaiterId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Service_zone_Waiters");
             });
 
             modelBuilder.Entity<Table>(entity =>
@@ -271,6 +247,8 @@ namespace RestarauntWebApplication.Models.EFModels
                     .HasMaxLength(255)
                     .IsUnicode(false)
                     .HasColumnName("table_description");
+
+                entity.Property(e => e.TableFloor).HasColumnName("table_floor");
 
                 entity.Property(e => e.TableMapPosition)
                     .IsUnicode(false)

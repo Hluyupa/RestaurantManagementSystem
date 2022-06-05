@@ -11,12 +11,16 @@ namespace RestarauntClient.Models.POCOModels
     {
         [JsonPropertyName("tableId")]
         public int TableId { get; set; }
-        [JsonPropertyName("tableNumber")]
-        public int? TableNumber { get; set; }
+        [JsonPropertyName("tableDescription")]
+        public string TableDescription { get; set; }
         [JsonPropertyName("tableCountSeat")]
         public int? TableCountSeat { get; set; }
-        [JsonPropertyName("serviceZones")]
-        public virtual ICollection<ServiceZone> ServiceZones { get; set; }
+        [JsonPropertyName("tableMapPosition")]
+        public string TableMapPosition { get; set; }
+        [JsonPropertyName("tableFloor")]
+        public int? TableFloor { get; set; }
+        [JsonPropertyName("orders")]
+        public virtual ICollection<Order> Orders { get; set; }
         [JsonPropertyName("visitorsTables")]
         public virtual ICollection<VisitorsTable> VisitorsTables { get; set; }
     }

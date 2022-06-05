@@ -13,10 +13,11 @@
     display: grid;
     margin-top: 25px;
     grid-template-columns: 1fr 0.25fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto minmax(600px, 1fr) auto;
     grid-template-areas:
         "pageInformation pageInformation"
         "map properties"
+        "floorSelector floorSelector"
 }
 
 .pageInformation {
@@ -35,9 +36,21 @@
 
 
 .map {
+    height:100%;
+    width:100%;
     margin: 5px;
     grid-area: map;
     position: relative;
+}
+
+.firstFloor {
+    position: relative;
+    visibility:visible;
+}
+
+.secondFloor{
+    position:absolute;
+    visibility:collapse;
 }
 
 .table {
@@ -50,8 +63,8 @@
 }
 
 .properties {
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    column-gap: 5px;
+    row-gap: 5px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
@@ -81,8 +94,8 @@
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 .colorNotBooking {
@@ -126,7 +139,8 @@
     justify-self: center;
 }
 .button {
-    transition-duration: 0.5s;
+    transition-property:background-color, color;
+    transition-duration:0.25s;
     border-radius: 8px;
     width: 200px;
     height: 50px;
@@ -137,10 +151,11 @@
 }
 
 .buttonText {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Comfortaa';
     font-weight: 700;
     font-size: 16px;
-    font-style: italic;
+    
+    
 }
 
 .button:hover {
@@ -148,15 +163,145 @@
     cursor: pointer;
 }
 
-.userInfoFormShadow {
-    display: none;
-    width: 100vw;
-    height: 100vh;
-   
-    z-index: 9;
-    left: 0;
-    top: 0;
-    opacity: 0.3;
-    position: absolute;
-    background-color: black;
+.floorSelector {
+    align-self:center;
+    justify-self:center;
+    grid-area: floorSelector;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid var(--brown);
+    border-radius:8px;
+    background-color:var(--brown);
 }
+
+.floorSelectedButton{
+    display:inline-block;
+    float:left;
+}
+
+.floorSelector input[type=radio] {
+    display:none;
+    margin: 0px;
+    
+}
+
+.floorSelector label {
+    text-align:center;
+    line-height:40px;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: var(--lightgreen);
+    user-select:none;
+   
+}
+
+.floorSelector label:hover {
+    background-color: var(--lightgreen);
+       
+}
+
+.floorSelector input[type=radio]:checked + label {
+    transition-duration: 0,5s;
+    background-color: var(--brown);
+    color: var(--lightgreen);
+}
+
+
+
+
+
+.firstFloor{
+    position: relative;
+    visibility:visible;
+  
+}
+
+.secondFloor {
+    position: absolute;
+    left: 0px;
+    visibility: collapse;
+}
+
+.userInformationWindow{
+    box-sizing:border-box;
+    padding:5px;
+    width:300px;
+    height:auto;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns:1fr;
+    grid-template-areas:
+        "windowTitle"
+        "windowInformation"
+        "windowUserForm"
+        "cancelOkButtons";
+}
+
+.windowTitle {
+    grid-area: windowTitle;
+    text-align:center;
+}
+
+.windowInformation {
+    grid-area: windowInformation;
+    text-align: left;
+   
+}
+
+.windowUserForm {
+    grid-area: windowUserForm;
+   
+}
+
+.formRow{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-areas:
+        "label"
+        "textArea"
+}
+
+.formRow > label {
+    grid-area: label;
+}
+
+.formRow > input {
+    grid-area: textArea;
+    border-radius:50px;
+    border:0px;
+    box-sizing:border-box;
+    padding:0px 10px;
+    height:25px;
+
+}
+
+.cancelOkButtons {
+    grid-area: cancelOkButtons;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto 1fr auto;
+}
+
+.cancelButton{
+    grid-column:1/2;
+}
+
+
+.okButton {
+    grid-column: 3/4;
+}
+
+.cancelButton, .okButton {
+    height: 35px;
+    width: 120px;
+}
+
+.cancelButton:hover, .okButton:hover {
+    background-color: var(--brown);
+    color: var(--lightgreen);
+  
+}
+

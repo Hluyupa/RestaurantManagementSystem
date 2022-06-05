@@ -18,10 +18,15 @@
             Grid.Row="0">
             <TextBlock
                 Margin="5 5 5 0"
-                Text="Посетитель"
+                Text="Номер столика, за которым сидит посетитель "
                 Style="{StaticResource TextBlockDefault}"/>
-            <TextBox
-                Margin="5 5 5 0"/>
+            <ComboBox
+                Margin="5 5 5 0"
+                ItemsSource="{Binding TablesList}"
+                Height="25px"
+                DisplayMemberPath="TableDescription">
+                
+            </ComboBox>
             <TextBlock
                 Margin="5 5 5 0"
                 Text="Сотрудник"

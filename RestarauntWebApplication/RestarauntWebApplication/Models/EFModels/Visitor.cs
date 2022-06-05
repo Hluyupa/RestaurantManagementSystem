@@ -9,7 +9,6 @@ namespace RestarauntWebApplication.Models.EFModels
     {
         public Visitor()
         {
-            Orders = new HashSet<Order>();
             VisitorsTables = new HashSet<VisitorsTable>();
         }
 
@@ -18,7 +17,6 @@ namespace RestarauntWebApplication.Models.EFModels
         public string VisitorTelephone { get; set; }
         public string VisitorEmail { get; set; }
 
-        public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<VisitorsTable> VisitorsTables { get; set; }
     }
 }

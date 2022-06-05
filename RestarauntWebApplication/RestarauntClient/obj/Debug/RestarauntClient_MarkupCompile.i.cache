@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\Desktop\Мои работы\Диплом\RestaurantManagementSystem\RestarauntWebApplication\RestarauntClient\App.xaml
-22-216570074
+231108860341
 
-711383728843
-155212548483
-Styles\MainStyle.xaml;View\Pages\AddDishInMenuPage.xaml;View\Pages\AddIngridientsInStoragePage.xaml;View\Pages\AddRestarauntIngridientsPage.xaml;View\Pages\AddRestarauntWorkersPage.xaml;View\Pages\CheckIngridientsStoragePage.xaml;View\Pages\CookCheckNewDishesForCookingPage.xaml;View\Pages\DishCookingPage.xaml;View\Pages\DishesInMenuPage.xaml;View\Pages\OrderDetailsPage.xaml;View\Pages\RestarauntIngridientsPage.xaml;View\Pages\RestarauntWorkersPage.xaml;View\Pages\SeatReservationPage.xaml;View\Pages\UpdateDishInMenuPage.xaml;View\Pages\WaiterCheckOrderPage.xaml;View\Pages\WaiterCreateNewOrderPage.xaml;View\Pages\WaiterCreateOrderPage.xaml;View\Windows\AdministratorWindow.xaml;View\Windows\AuthorizationWindow.xaml;View\Windows\CookWindow.xaml;View\Windows\OperatorWindow.xaml;View\Windows\WaiterWindow.xaml;
+72389112230
+156-133090926
+Styles\MainStyle.xaml;View\Pages\AddDishInMenuPage.xaml;View\Pages\AddIngridientsInStoragePage.xaml;View\Pages\AddRestarauntIngridientsPage.xaml;View\Pages\AddRestarauntWorkersPage.xaml;View\Pages\CheckIngridientsStoragePage.xaml;View\Pages\CookCheckNewDishesForCookingPage.xaml;View\Pages\DishCookingPage.xaml;View\Pages\DishesInMenuPage.xaml;View\Pages\OrderDetailsPage.xaml;View\Pages\RestarauntIngridientsPage.xaml;View\Pages\RestarauntWorkersPage.xaml;View\Pages\SeatReservationPage.xaml;View\Pages\ServiceZonePage.xaml;View\Pages\UpdateDishInMenuPage.xaml;View\Pages\WaiterCheckOrderPage.xaml;View\Pages\WaiterCreateNewOrderPage.xaml;View\Pages\WaiterCreateOrderPage.xaml;View\Windows\AdministratorWindow.xaml;View\Windows\AuthorizationWindow.xaml;View\Windows\CookWindow.xaml;View\Windows\OperatorWindow.xaml;View\Windows\WaiterWindow.xaml;
 
 True
 
