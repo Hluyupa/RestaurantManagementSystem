@@ -5,18 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RestarauntClient.View.Windows"
         mc:Ignorable="d"
-        Title="Авторизация" Height="550" Width="300"
-        Style="{StaticResource WindowStyle}">
+        Title="Авторизация" Height="450" Width="300"
+        Style="{StaticResource WindowStyle}"
+        Icon="/Resources/authicon.png">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            
         </Grid.RowDefinitions>
-        <Image 
-            Source="/Resources/logo.png"
-            Margin="10px"
-            Height="150px"/>
+        <StackPanel
+            Grid.Row="0"
+             Margin="10px">
+            <Image 
+                Source="/Resources/logo.png"
+                Height="150px"
+                Margin="0 0 0 5"/>
+            <TextBlock
+                Text="Шошанна"
+                TextAlignment="Center"
+                Style="{StaticResource TextBlockHeader1}"/>
+        </StackPanel>
+       
         <StackPanel
             Grid.Row="1"
             VerticalAlignment="Center">

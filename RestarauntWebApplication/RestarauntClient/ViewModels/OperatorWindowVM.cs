@@ -1,4 +1,5 @@
-﻿using RestarauntClient.View.Windows;
+﻿using RestarauntClient.View.Pages;
+using RestarauntClient.View.Windows;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -42,7 +43,8 @@ namespace RestarauntClient.ViewModels
             {
                 switch (value.Content.ToString())
                 {
-                    case "Бронирование мест":
+                    case "Список гостей":
+                        CurrentPage = new OperatorVisitorsPage();
                         break;
                     case "Выход":
                         AuthorizationWindow authorizationWindow = new AuthorizationWindow();
@@ -71,7 +73,7 @@ namespace RestarauntClient.ViewModels
             Style styleMenuItemListView = Application.Current.FindResource("MenuItemListView") as Style;
             MenuItems = new ObservableCollection<ListViewItem>
             {
-                new ListViewItem{ Content="Бронирование мест", Style = styleMenuItemListView },
+                new ListViewItem{ Content="Список гостей", Style = styleMenuItemListView },
                 new ListViewItem{ Content="Выход", Style = styleMenuItemListView }
             };
 

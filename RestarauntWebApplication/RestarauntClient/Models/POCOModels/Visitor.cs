@@ -17,8 +17,6 @@ namespace RestarauntClient.Models.POCOModels
         public string VisitorTelephone { get; set; }
         [JsonPropertyName("visitorEmail")]
         public string VisitorEmail { get; set; }
-        [JsonPropertyName("orders")]
-        public virtual ICollection<Order> Orders { get; set; }
         [JsonPropertyName("visitorsTables")]
         public virtual ICollection<VisitorsTable> VisitorsTables { get; set; }
     }

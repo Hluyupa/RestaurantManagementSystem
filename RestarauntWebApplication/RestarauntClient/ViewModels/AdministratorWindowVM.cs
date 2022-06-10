@@ -45,9 +45,7 @@ namespace RestarauntClient.ViewModels
                     case "Заказ продуктов":
                         CurrentPage = new CheckIngridientsStoragePage();
                         break;
-                    case "Распределение столиков":
-                        CurrentPage = new ServiceZonePage();
-                        break;
+                    
                     case "Склад":
                         CurrentPage = new AddIngridientsInStoragePage();
                         break;
@@ -80,7 +78,6 @@ namespace RestarauntClient.ViewModels
             MenuItems = new ObservableCollection<ListViewItem>
             {
                 new ListViewItem{ Content = "Заказ продуктов", Style = styleMenuItemListView},
-                new ListViewItem{ Content = "Распределение столиков", Style = styleMenuItemListView},
                 new ListViewItem{ Content = "Склад", Style = styleMenuItemListView},
                 new ListViewItem{ Content = "Меню", Style = styleMenuItemListView},
                 new ListViewItem{ Content = "Ингредиенты", Style = styleMenuItemListView},

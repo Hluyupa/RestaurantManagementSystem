@@ -58,7 +58,7 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
+                                
                             </Grid.ColumnDefinitions>
                             <TextBlock
                                 HorizontalAlignment="Center"
@@ -69,7 +69,7 @@
                             <TextBlock
                                 HorizontalAlignment="Center"
                                 VerticalAlignment="Center"
-                                Text="{Binding Path=DishCount}"
+                                Text="{Binding StringFormat=Количество: {0}, Path=DishCount}"
                                 Grid.Column="1"
                                 Style="{StaticResource TextBlockDefault}"/>
                             

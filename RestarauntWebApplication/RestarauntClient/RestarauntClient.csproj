@@ -243,6 +243,7 @@
     <Compile Include="ViewModels\CookWindowVM.cs" />
     <Compile Include="ViewModels\DishCookingPageVM.cs" />
     <Compile Include="ViewModels\DishesInMenuPageVM.cs" />
+    <Compile Include="ViewModels\OperatorVisitorsPageVM.cs" />
     <Compile Include="ViewModels\OperatorWindowVM.cs" />
     <Compile Include="ViewModels\OrderDetailsPageVM.cs" />
     <Compile Include="ViewModels\RestarauntIngridientsPageVM.cs" />
@@ -277,6 +278,9 @@
     </Compile>
     <Compile Include="View\Pages\DishesInMenuPage.xaml.cs">
       <DependentUpon>DishesInMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\OperatorVisitorsPage.xaml.cs">
+      <DependentUpon>OperatorVisitorsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\OrderDetailsPage.xaml.cs">
       <DependentUpon>OrderDetailsPage.xaml</DependentUpon>
@@ -414,6 +418,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\OperatorVisitorsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pages\OrderDetailsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -479,6 +487,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FirstFloor.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\povar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\oficiant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\operator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\authicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\RestarauntWebApplication\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets" Condition="Exists('..\..\RestarauntWebApplication\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" />

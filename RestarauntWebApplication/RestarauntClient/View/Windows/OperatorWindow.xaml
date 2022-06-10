@@ -6,32 +6,57 @@
         xmlns:local="clr-namespace:RestarauntClient.View.Windows"
         mc:Ignorable="d"
         Title="Оператор" Height="450" Width="850"
-        Style="{StaticResource WindowStyle}">
+        Style="{StaticResource WindowStyle}"
+        Icon="/Resources/operator.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150px"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <ListView
-            ItemsSource="{Binding MenuItems}"
-            SelectedItem="{Binding SelectedMenuItem}"
-            Grid.Column="0"
-            BorderThickness="0"
-            Padding="0"
+
+        <Grid
             Background="{StaticResource Green}"
-            HorizontalContentAlignment="Stretch"
-            VerticalContentAlignment="Stretch">
-            <ListView.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <StackPanel/>
-                </ItemsPanelTemplate>
-            </ListView.ItemsPanel>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ListViewItem/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <ListView
+                ItemsSource="{Binding MenuItems}"
+                SelectedItem="{Binding SelectedMenuItem}"
+                Grid.Row="0"
+                BorderThickness="0"
+                Padding="0"
+                Background="{StaticResource Green}"
+                HorizontalContentAlignment="Stretch"
+                VerticalContentAlignment="Stretch">
+                
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ListViewItem/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel
+                Grid.Row="1"
+                VerticalAlignment="Bottom"
+                Margin="10px">
+                <Image
+                    Height="150px"
+                    Source="/Resources/logo.png"
+                    Margin="0 0 0 5"/>
+                <TextBlock
+                    Style="{StaticResource TextBlockHeader1}"
+                    Text="Шошанна"
+                    TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+        
         <Frame
             Content="{Binding CurrentPage}"
             NavigationUIVisibility="Hidden"

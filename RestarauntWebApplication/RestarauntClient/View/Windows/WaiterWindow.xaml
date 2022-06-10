@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:RestarauntClient.View.Windows"
         mc:Ignorable="d"
         Title="Официант" Height="450" Width="840"
-        Style="{StaticResource WindowStyle}">
+        Style="{StaticResource WindowStyle}"
+        Icon="/Resources/oficiant.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>
@@ -14,6 +15,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid
+            Background="{StaticResource Green}"
             Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -44,12 +46,21 @@
                     Style="{StaticResource MenuItemListView}"
                     Content="Выход"/>
             </ListView>
-            
-            <Image 
+
+            <StackPanel
+                Grid.Row="1"
                 VerticalAlignment="Bottom"
-                Margin="10px"
-                Height="150px"
-                Source="/Resources/logo.png" />
+                Margin="10px">
+                <Image
+                    Height="150px"
+                    Source="/Resources/logo.png"
+                    Margin="0 0 0 5"/>
+                <TextBlock
+                    Style="{StaticResource TextBlockHeader1}"
+                    Text="Шошанна"
+                    TextAlignment="Center"/>
+            </StackPanel>
+            
 
         </Grid>
        
