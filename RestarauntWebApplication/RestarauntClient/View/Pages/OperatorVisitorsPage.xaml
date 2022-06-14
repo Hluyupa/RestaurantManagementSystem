@@ -30,6 +30,7 @@
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <TextBox
+                Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
                 Height="25px"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Center"
@@ -39,7 +40,7 @@
                 SelectedItem="{Binding SelectedDateOfBooking}"
                 Height="25px"
                 Grid.Column="1"
-                Width="200px"
+                Width="150px"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Margin="5px"/>
@@ -48,11 +49,13 @@
                 SelectedItem="{Binding SelectedTableOfBooking}"
                 Height="25px"
                 Grid.Column="2"
-                Width="200px"
-                HorizontalAlignment="Center"
+                Width="150px"
+                HorizontalAlignment="Stretch"
                 VerticalAlignment="Center"
-                Margin="5px"/>
+                Margin="5px"
+                DisplayMemberPath="TableDescription"/>
             <Button
+                Command="{Binding DeleteBooking}"
                 Grid.Column="3"
                 Style="{StaticResource DefaultButton}"
                 Height="25px"
@@ -62,7 +65,7 @@
         </Grid>
 
         <ListView
-            
+            SelectedItem="{Binding SelectedBooking}"
             ItemsSource="{Binding VisitorsViewList}"
             Grid.Row="2"
             Background="{StaticResource LightGreen}"

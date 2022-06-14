@@ -27,6 +27,20 @@ namespace RestarauntWebApplication.Controllers
             return await _context.DishesIngridients.ToListAsync();
         }
 
+        [HttpGet("CheckDishesIngridients")]
+        public async Task<IActionResult> CheckDishesIngridients(int dishId, int dishCount)
+        {
+            var ingridientsOfDish = await _context.DishesIngridients.Include(p=>p.Ingridient).Where(p=>p.DishId.Equals(dishId)).ToListAsync();
+            foreach (var item in ingridientsOfDish)
+            {
+                if (item.Ingridient.IngridientUnits <= 0 || (item.Ingridient.IngridientUnits - item.IngridientCount * dishCount) < 0)
+                {
+                    return NotFound();
+                }
+            }
+            return Ok();
+        }
+
         [HttpGet("GetDishIngridients/{dishId}")]
         public async Task<ActionResult<IEnumerable<DishesIngridient>>> GetDishIngridients(int dishId)
         {

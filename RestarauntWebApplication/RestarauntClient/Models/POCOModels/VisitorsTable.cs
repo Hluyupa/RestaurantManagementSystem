@@ -9,10 +9,12 @@ namespace RestarauntClient.Models.POCOModels
 {
     public class VisitorsTable
     {
+        [JsonPropertyName("bookingId")]
+        public int BookingId { get; set; }
         [JsonPropertyName("visitorId")]
-        public int VisitorId { get; set; }
+        public int? VisitorId { get; set; }
         [JsonPropertyName("tableId")]
-        public int TableId { get; set; }
+        public int? TableId { get; set; }
         [JsonPropertyName("dateBooking")]
         public DateTime? DateBooking { get; set; }
         [JsonPropertyName("table")]

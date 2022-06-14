@@ -37,7 +37,7 @@ namespace RestarauntWebApplication.Models.EFModels
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Server=DESKTOP-RM2SOEB\\SQLEXPRESS;Database=Restaraunt;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Restaraunt;Integrated Security=True");
             }
         }
 
@@ -277,28 +277,29 @@ namespace RestarauntWebApplication.Models.EFModels
 
             modelBuilder.Entity<VisitorsTable>(entity =>
             {
-                entity.HasKey(e => new { e.VisitorId, e.TableId });
+                entity.HasKey(e => e.BookingId)
+                    .HasName("PK_Visitors_Tables_1");
 
                 entity.ToTable("Visitors_Tables");
 
-                entity.Property(e => e.VisitorId).HasColumnName("visitor_id");
-
-                entity.Property(e => e.TableId).HasColumnName("table_id");
+                entity.Property(e => e.BookingId).HasColumnName("booking_id");
 
                 entity.Property(e => e.DateBooking)
                     .HasColumnType("datetime")
                     .HasColumnName("date_booking");
 
+                entity.Property(e => e.TableId).HasColumnName("table_id");
+
+                entity.Property(e => e.VisitorId).HasColumnName("visitor_id");
+
                 entity.HasOne(d => d.Table)
                     .WithMany(p => p.VisitorsTables)
                     .HasForeignKey(d => d.TableId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Visitors_Tables_Tables");
 
                 entity.HasOne(d => d.Visitor)
                     .WithMany(p => p.VisitorsTables)
                     .HasForeignKey(d => d.VisitorId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Visitors_Tables_Visitors");
             });
 

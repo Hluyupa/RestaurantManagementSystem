@@ -4,7 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using RestarauntWebApplication.Hubs;
 using RestarauntWebApplication.Models.EFModels;
 
 namespace RestarauntWebApplication.Controllers
@@ -14,10 +17,11 @@ namespace RestarauntWebApplication.Controllers
     public class VisitorsTablesController : ControllerBase
     {
         private readonly RestarauntContext _context;
-
-        public VisitorsTablesController(RestarauntContext context)
+        IHubContext<NotificationHub> _hubContext;
+        public VisitorsTablesController(RestarauntContext context, IHubContext<NotificationHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
 
         // GET: api/VisitorsTables
@@ -86,30 +90,16 @@ namespace RestarauntWebApplication.Controllers
         public async Task<ActionResult<VisitorsTable>> PostVisitorsTable(VisitorsTable visitorsTable)
         {
             _context.VisitorsTables.Add(visitorsTable);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (VisitorsTableExists(visitorsTable.VisitorId))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetVisitorsTable", new { id = visitorsTable.VisitorId }, visitorsTable);
+            return CreatedAtAction("GetVisitorsTable", new { id = visitorsTable.BookingId }, visitorsTable);
         }
 
         // DELETE: api/VisitorsTables/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteVisitorsTable(int id)
         {
-            var visitorsTable = await _context.VisitorsTables.FindAsync(id);
+            var visitorsTable = await _context.VisitorsTables.Include(p=>p.Table).Include(p=>p.Visitor).FirstOrDefaultAsync(p=>p.BookingId==id);
             if (visitorsTable == null)
             {
                 return NotFound();
@@ -117,8 +107,8 @@ namespace RestarauntWebApplication.Controllers
 
             _context.VisitorsTables.Remove(visitorsTable);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            await _hubContext.Clients.All.SendAsync("DeletedBooking", JsonConvert.SerializeObject(visitorsTable, Formatting.None, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }));
+            return Ok();
         }
 
         private bool VisitorsTableExists(int id)

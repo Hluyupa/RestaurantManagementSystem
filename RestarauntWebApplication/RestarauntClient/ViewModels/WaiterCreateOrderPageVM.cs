@@ -253,6 +253,16 @@ namespace RestarauntClient.ViewModels
                 return;
             }
 
+            var requestCheckIngridients = new RestRequest($"api/DishesIngridients/CheckDishesIngridients", Method.GET);
+            requestCheckIngridients.AddParameter("dishId", DishSelected.DishId);
+            requestCheckIngridients.AddParameter("dishCount", DishCount);
+            var responceCheckIngridients = Client.Instance().httpClient.Execute(requestCheckIngridients);
+            if(responceCheckIngridients.StatusCode == HttpStatusCode.NotFound)
+            {
+                MessageBox.Show("Недостаочно ингредиентов на складе!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             if (AddDishes.Any(p => p.Dish.DishName.Equals(DishSelected.DishName)))
             {
                 AddDishes.FirstOrDefault(p=>p.Dish.DishName.Equals(DishSelected.DishName)).DishCount+=Convert.ToInt32(DishCount);   
